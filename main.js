@@ -1,5 +1,5 @@
 // main.js
-// WhatsApp Bot Runner — Final Fix (Session Creator)
+// WhatsApp Bot Runner — Optimized (Fanrabot v1.2)
 // ================================================
 import 'dotenv/config';
 import { Boom } from '@hapi/boom';
@@ -15,6 +15,7 @@ const require = createRequire(import.meta.url);
 const qrcode = require('qrcode-terminal');
 const lib = require('@whiskeysockets/baileys');
 
+// Ambil fungsi penting dari Baileys
 function getBaileysFunction(key) { return lib[key] || lib.default?.[key] || lib.default?.default?.[key]; }
 const makeWASocket = lib.default?.default || lib.default || lib;
 const useMultiFileAuthState = getBaileysFunction('useMultiFileAuthState');
@@ -22,26 +23,26 @@ const DisconnectReason = getBaileysFunction('DisconnectReason');
 const fetchLatestBaileysVersion = getBaileysFunction('fetchLatestBaileysVersion');
 const jidNormalizedUser = getBaileysFunction('jidNormalizedUser');
 const Browsers = getBaileysFunction('Browsers');
+const downloadMediaMessage = getBaileysFunction('downloadMediaMessage'); // Helper download bawaan
 
 const SESSION_DIR = process.env.SESSION_DIR || 'session';
-const localLogger = pino({ level: 'fatal' });
+// Ubah level ke 'info' atau 'error' agar log lebih bersih tapi tetap informatif
+const localLogger = pino({ level: 'info' }); 
 
-// readline for manual pairing input
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
 
-// ensure session dir exists
 if (!fs.existsSync(SESSION_DIR)) {
     fs.mkdirSync(SESSION_DIR, { recursive: true });
 }
 
-// Helper Serializer Pesan (Anti-Crash)
+// --- IMPROVED SERIALIZER (ANTI-CRASH) ---
 const serialize = (m, sock) => {
   if (!m || !m.messages?.[0]) return null;
   const msg = m.messages[0];
-  if (!msg.message) return null; // Safety check
+  if (!msg.message) return null;
   if (msg.key?.remoteJid === 'status@broadcast') return null;
   
   const key = msg.key;
@@ -50,20 +51,33 @@ const serialize = (m, sock) => {
   let senderRaw = isGroup ? key.participant : chatId;
   const sender = jidNormalizedUser(senderRaw || ''); 
   
-  const type = Object.keys(msg.message).find(k => k !== 'senderKeyDistributionMessage' && k !== 'messageContextInfo');
+  // Deteksi tipe pesan lebih lengkap
+  let type = Object.keys(msg.message).find(k => k !== 'senderKeyDistributionMessage' && k !== 'messageContextInfo');
   
+  // Handle ViewOnce (pesan sekali lihat)
+  if (type === 'viewOnceMessage' || type === 'viewOnceMessageV2') {
+      msg.message = msg.message[type].message;
+      type = Object.keys(msg.message).find(k => k !== 'senderKeyDistributionMessage' && k !== 'messageContextInfo');
+  }
+
   let body = '';
+  // Ekstrak text/caption berdasarkan tipe
   if (type === 'conversation') body = msg.message.conversation;
   else if (type === 'extendedTextMessage') body = msg.message.extendedTextMessage?.text;
   else if (type === 'imageMessage') body = msg.message.imageMessage?.caption;
   else if (type === 'videoMessage') body = msg.message.videoMessage?.caption;
+  else if (type === 'documentMessage') body = msg.message.documentMessage?.caption;
+  // Sticker & Audio biasanya tidak punya body text, biarkan kosong atau isi penanda
   
-  // include quoted context for plugins that may need it
-  const quoted = msg.message?.extendedTextMessage?.contextInfo || null;
+  const quoted = msg.message?.extendedTextMessage?.contextInfo || 
+                 msg.message?.imageMessage?.contextInfo || 
+                 msg.message?.videoMessage?.contextInfo || null;
+                 
   const quotedKey = quoted?.stanzaId ? { remoteJid: chatId, id: quoted.stanzaId, participant: quoted.participant } : null;
 
   return { 
-    raw: msg, key, id: key.id, chatId, sender, 
+    raw: msg, // Pesan asli (penting untuk download media)
+    key, id: key.id, chatId, sender, 
     senderNumber: sender.split('@')[0], pushName: msg.pushName || 'User', 
     isGroup, fromMe: key.fromMe, type, body: body || '',
     quoted, quotedKey
@@ -78,7 +92,6 @@ class WhatsAppClient {
   }
 
   async start() {
-    // Session Auth
     const { state, saveCreds } = await useMultiFileAuthState(SESSION_DIR);
     const { version } = await fetchLatestBaileysVersion();
     
@@ -89,7 +102,9 @@ class WhatsAppClient {
       auth: state,
       browser: Browsers.ubuntu('FanraBot Manager'), 
       syncFullHistory: false,
-      generateHighQualityLinkPreview: true
+      generateHighQualityLinkPreview: true,
+      // Tambahkan timeout agar tidak hang
+      connectTimeoutMs: 60000, 
     });
 
     this.sock.ev.on('creds.update', saveCreds);
@@ -98,23 +113,20 @@ class WhatsAppClient {
   }
 
   async handleConnection({ connection, lastDisconnect, qr }) {
-    // QR tampil — tampilkan sekali
     if (qr && !this.qrShown) {
         this.qrShown = true;
         console.clear();
         console.log(chalk.yellow('⚠️ SCAN QR CODE SEKARANG ⚠️'));
         qrcode.generate(qr, { small: true });
 
-        // jika QR tidak discan dalam 25 detik -> minta manual pairing
         setTimeout(() => {
             try {
                 const creds = this.sock?.auth?.state?.creds;
-                const isRegistered = creds?.registered;
-                if (!isRegistered && !this.pairingPromptShown) {
+                if (!creds?.registered && !this.pairingPromptShown) {
                     this.showManualPairingPrompt();
                 }
             } catch (e) {}
-        }, 25000);
+        }, 20000); // Dipercepat ke 20 detik
     }
 
     if (connection === 'close') {
@@ -123,47 +135,42 @@ class WhatsAppClient {
           console.log(chalk.red('❌ Sesi Logged Out. Hapus folder session dan scan ulang.'));
           process.exit(1);
       } else {
-          // try reconnecting
-          console.log(chalk.yellow('🔁 Connection closed, attempting reconnect...'));
-          // on close, also prompt manual pairing (if not already shown)
+          console.log(chalk.yellow(`🔁 Koneksi terputus (${reason}), mencoba reconnect...`));
           if (!this.pairingPromptShown) this.showManualPairingPrompt();
-          setTimeout(() => this.start(), 1500);
+          setTimeout(() => this.start(), 2000);
       }
     } else if (connection === 'open') {
       engine.logger.info('CONN', chalk.green('WhatsApp Connected! 🚀'));
       this.injectToEngine();
+      this.pairingPromptShown = true; // Supaya tidak minta pairing lagi saat sudah connect
 
+      // Notifikasi ke owner (Self Message)
       const settings = engine.settings; 
       if (settings.selfMessage !== false) {
           const botId = jidNormalizedUser(this.sock.user.id);
           const dashboardText = `
-🤖 *FANRABOT ONLINE*
+🤖 *FANRABOT ONLINE (v1.2)*
 ===================
 ✅ *Status System:*
 • Group Mode: ${settings.groupMode ? 'ON' : 'OFF'}
 • Private Mode: ${settings.privateMode ? 'ON' : 'OFF'}
+• Serializer: Enhanced
 
 _Bot berhasil terhubung dan siap digunakan._
           `.trim();
-          
           try { await this.sock.sendMessage(botId, { text: dashboardText }); } catch (e) {}
       }
     }
 
-    // If not registered (no saved credentials), proactively show pairing code when possible (one-time attempt)
+    // Auto Pairing Code Trigger
     try {
       const creds = this.sock?.auth?.state?.creds;
-      const isRegistered = creds?.registered;
-      if (!isRegistered && !this.pairingPromptShown) {
-        // small delay to let socket initialize methods
+      if (!creds?.registered && !this.pairingPromptShown) {
         setTimeout(() => {
-          // Try library pairing helper first (if available), otherwise do nothing — QR will handle it
           if (typeof this.sock?.generatePairingCode === 'function') {
-            // show library pairing code (if supported)
             this.showPairingCodeIfAvailable();
           }
-          // don't auto open manual prompt here to avoid double prompts — we trigger manual prompt only on QR timeout or close
-        }, 1200);
+        }, 1500);
       }
     } catch (e) {}
   }
@@ -171,42 +178,41 @@ _Bot berhasil terhubung dan siap digunakan._
   async showPairingCodeIfAvailable() {
     try {
       if (!this.sock) return;
-      if (typeof this.sock.generatePairingCode === 'function') {
-        const code = await this.sock.generatePairingCode();
-        if (code) {
-          console.log(chalk.green('\n🔐 Pairing Code (gunakan di WhatsApp -> Perangkat Tertaut -> Tautkan Perangkat):'));
-          console.log(chalk.cyan(`  ${code}\n`));
-        }
+      // Memastikan kita tidak generate code terus menerus
+      if (this.pairingPromptShown) return;
+      
+      const code = await this.sock.generatePairingCode();
+      if (code) {
+        console.log(chalk.green('\n🔐 Pairing Code (Otomatis):'));
+        console.log(chalk.cyan(`  ${code}\n`));
       }
-    } catch (e) {
-      // ignore — fallback to manual prompt if necessary
-    }
+    } catch (e) {}
   }
 
   showManualPairingPrompt() {
-    // Show once
     if (this.pairingPromptShown) return;
     this.pairingPromptShown = true;
 
-    console.log(chalk.yellow('\n⚠️ QR CODE tidak ter-scan atau gagal. Silakan masukkan Pairing Code / SN secara manual.'));
-    console.log(chalk.gray('Masukkan kode pairing (contoh: 123-456-789) lalu tekan Enter.\n'));
+    console.log(chalk.yellow('\n⚠️  Gunakan Pairing Code jika QR tidak muncul.'));
+    console.log(chalk.gray('Masukkan Nomor HP (format: 628xxx) untuk mendapatkan kode pairing, atau tekan Enter untuk skip.\n'));
 
-    rl.question('Masukkan Pairing Code / SN: ', (input) => {
-      const code = (input || '').toString().trim();
-      if (!code) {
-        console.log(chalk.red('❌ Kode kosong — batal.'));
-        // allow retry once after small delay
-        this.pairingPromptShown = false;
-        setTimeout(() => this.showManualPairingPrompt(), 800);
+    rl.question('Nomor HP Bot: ', async (input) => {
+      const number = (input || '').toString().trim().replace(/[^0-9]/g, '');
+      if (!number) {
+        console.log(chalk.red('❌ Batal. Menunggu QR...'));
+        this.pairingPromptShown = false; // Reset agar bisa muncul lagi jika perlu
         return;
       }
 
-      // Show instruction to user for where to input code on WhatsApp device
-      console.log(chalk.green('\n🔐 Pairing Code yang dimasukkan:'));
-      console.log(chalk.cyan(`  ${code}\n`));
-      console.log(chalk.gray('Sekarang buka WhatsApp di ponsel → Perangkat Tertaut → Tautkan Perangkat → Masukkan Kode tersebut.\n'));
-      console.log(chalk.gray('Jika pairing tidak berhasil, jalankan ulang proses dan scan QR atau masukkan kembali kode.\n'));
-      // keep promptShown true to prevent duplicate prompts
+      try {
+        const code = await this.sock.requestPairingCode(number);
+        console.log(chalk.green('\n🔐 Kode Pairing Anda:'));
+        console.log(chalk.bold.cyan(`  ${code?.match(/.{1,4}/g)?.join('-') || code}\n`));
+        console.log(chalk.gray('Masukkan kode ini di HP: Perangkat Tertaut > Tautkan > Masukkan No HP.\n'));
+      } catch (e) {
+        console.log(chalk.red('Gagal request pairing code: ' + e.message));
+        this.pairingPromptShown = false;
+      }
     });
   }
 
@@ -214,9 +220,12 @@ _Bot berhasil terhubung dan siap digunakan._
     if (type !== 'notify') return;
     for (const m of messages) {
       try {
+        // Logika serialize dipanggil di sini
         const meta = serialize({ messages: [m] }, this.sock);
         if (meta) await engine.dispatchEvent('message', meta);
-      } catch (e) {}
+      } catch (e) {
+        console.error(chalk.red('Error handling message:'), e);
+      }
     }
   }
 
@@ -226,13 +235,42 @@ _Bot berhasil terhubung dan siap digunakan._
       reply: (jid, text, opts = {}) => this.sock.sendMessage(jid, { text }, { quoted: opts.quoted }),
       sendMessage: (jid, content, opts = {}) => this.sock.sendMessage(jid, content, opts),
       react: (jid, emoji, quoted) => this.sock.sendMessage(jid, { react: { text: emoji, key: quoted?.key } }),
-      deleteMessage: (key) => this.sock.sendMessage(key.remoteJid, { delete: key })
+      deleteMessage: (key) => this.sock.sendMessage(key.remoteJid, { delete: key }),
+      
+      // --- NEW FEATURE: Media Downloader Helper ---
+      // Cara pakai di plugin: const buffer = await engine.mockWA.downloadMedia(msg);
+      downloadMedia: async (msg) => {
+          try {
+             // Pastikan mengambil raw message (msg.raw) jika yang dikirim adalah objek serialize
+             const rawMessage = msg.raw || msg; 
+             const buffer = await downloadMediaMessage(
+                rawMessage,
+                'buffer',
+                { },
+                { logger: localLogger, reuploadRequest: this.sock.updateMediaMessage }
+             );
+             return buffer;
+          } catch (e) {
+             console.error('Download media failed:', e);
+             return null;
+          }
+      }
     };
   }
 }
 
+// --- GLOBAL ERROR HANDLING (Supaya Bot Gak Mati Sendiri) ---
+process.on('uncaughtException', (err) => {
+    console.error(chalk.red('🔥 Uncaught Exception:'), err);
+    // Jangan process.exit() agar bot tetap jalan
+});
+
+process.on('unhandledRejection', (reason) => {
+    console.error(chalk.red('🔥 Unhandled Rejection:'), reason);
+});
+
 (async () => { 
+  console.log(chalk.blue('Memulai FanraBot Engine...'));
   await engine.start(); 
   await new WhatsAppClient().start(); 
-  // keep process running to accept manual input from readline
 })();

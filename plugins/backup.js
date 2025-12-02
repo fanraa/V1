@@ -7,78 +7,80 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 
 export default {
-    name: "backup",
-    cmd: ["backup", "zip"],
-    type: "command",
-    priority: 1,
+    name: "backup",
+    cmd: ["backup", "zip"],
+    type: "command",
+    priority: 1,
 
-    run: async (ctx) => {
-        // 1. Owner Check
-        if (ctx.user?.role !== 'owner') {
-            return ctx.reply("❌ Perintah ini hanya bisa digunakan oleh **Owner Bot**.");
-        }
+    run: async (ctx) => {
+        // 1. Owner Check (tetap Bahasa Indonesia karena ini pesan kontrol)
+        if (ctx.user?.role !== 'owner') {
+            return ctx.reply("❌ Perintah ini hanya bisa digunakan oleh **Owner Bot**.");
+        }
 
-        await ctx.react("⏳");
-        // Beri tahu jika di grup, file akan dikirim ke DM
-        if (ctx.isGroup) {
-            await ctx.reply("📩 Mengirim backup ke Private Chat (DM) demi keamanan...");
-        }
+        await ctx.react("⏳");
+        if (ctx.isGroup) {
+            await ctx.reply("📩 Sending backup file to Private Chat (DM) for security...");
+        }
 
-        const outputFileName = `FanraBot_Backup_${new Date().toISOString().slice(0, 10)}.zip`;
-        const outputFilePath = path.join(ROOT, outputFileName);
-        
-        const output = fs.createWriteStream(outputFilePath);
-        const archive = archiver('zip', { zlib: { level: 9 } });
+        const outputFileName = `FanraBot_Backup_${new Date().toISOString().slice(0, 10)}.zip`;
+        const outputFilePath = path.join(ROOT, outputFileName);
+        
+        const output = fs.createWriteStream(outputFilePath);
+        // FIX 1: Turunkan level kompresi menjadi 5 (Lebih cepat dari 9)
+        const archive = archiver('zip', { zlib: { level: 5 } });
 
-        archive.pipe(output);
+        archive.pipe(output);
 
-        // --- 2. EXCLUSION LIST (PERBAIKAN KEAMANAN) ---
-        const excludePatterns = [
-            'node_modules/**', 
-            'session/**',      
-            'logs/**',
-            'data/users.json', 
-            '.npm/**',
-            '*.zip',           
-            outputFileName,
-            'package-lock.json',
-            '.env',            
-            '.DS_Store'
-        ];
+        // --- 2. EXCLUSION LIST (PERBAIKAN KEAMANAN & BUG) ---
+        const excludePatterns = [
+            'node_modules/**', 
+            'session/**',      
+            'logs/**',
+            // HAPUS 'data/users.json' agar file KRUSIAL ini ikut di-backup.
+            '.npm/**',
+            '*.zip',           
+            outputFileName,
+            'package-lock.json',
+            '.env',            
+            '.DS_Store',
+             // Contoh tambahan jika ada folder media/cache lain:
+             'temp/**' 
+        ];
 
-        archive.glob('**/*', {
-            cwd: ROOT,
-            ignore: excludePatterns,
-            dot: true 
-        });
+        archive.glob('**/*', {
+            cwd: ROOT,
+            ignore: excludePatterns,
+            dot: true 
+        });
 
-        await archive.finalize();
+        await archive.finalize();
 
-        output.on('close', async () => {
-            try {
-                const fileSizeKB = (fs.statSync(outputFilePath).size / 1024).toFixed(2);
-                
-                // 3. KIRIM KE DM (SENDER) BUKAN KE GRUP
-                await ctx.sendMessage({ 
-                    document: { url: outputFilePath },
-                    mimetype: 'application/zip',
-                    fileName: outputFileName,
-                    caption: `✅ *Backup Berhasil!* \n📅 Tanggal: ${new Date().toLocaleDateString()}\n📦 Ukuran: ${fileSizeKB} KB\n🔒 _.env excluded_`,
-                }, { jid: ctx.sender }); // <-- Kirim ke Pengirim (DM)
-                
-                if (ctx.isGroup) await ctx.react("✅");
+        output.on('close', async () => {
+            try {
+                const fileSizeKB = (fs.statSync(outputFilePath).size / 1024).toFixed(2);
+                
+                // Kirim ke Pengirim (DM)
+                await ctx.sendMessage({ 
+                    document: { url: outputFilePath },
+                    mimetype: 'application/zip',
+                    fileName: outputFileName,
+                    caption: `✅ *Backup Success!* \n📅 Date: ${new Date().toLocaleDateString()}\n📦 Size: ${fileSizeKB} KB\n🔒 *NOTE: .env and session files are excluded.*`,
+                }, { jid: ctx.sender }); 
+                
+                if (ctx.isGroup) await ctx.react("✅");
 
-            } catch (e) {
-                ctx.logger.error('BACKUP', `Gagal kirim file: ${e.message}`);
-                await ctx.reply("❌ Gagal mengirim file backup.");
-            } finally {
-                try { fs.unlinkSync(outputFilePath); } catch(e) {}
-            }
-        });
+            } catch (e) {
+                ctx.logger.error('BACKUP', `Failed to send file: ${e.message}`);
+                await ctx.reply("❌ Failed to send backup file.");
+            } finally {
+                try { fs.unlinkSync(outputFilePath); } catch(e) {}
+            }
+        });
 
-        output.on('error', (err) => {
-            ctx.logger.error('BACKUP', `Archiving error: ${err.message}`);
-            ctx.reply("❌ Gagal membuat file zip.");
-        });
-    }
+        output.on('error', (err) => {
+            ctx.logger.error('BACKUP', `Archiving error: ${err.message}`);
+            ctx.reply("❌ Failed to create zip file.");
+        });
+    }
 };

@@ -1,99 +1,69 @@
-// plugins/welcome.js
-// Immediate Welcome Message - Dedicated Handler
+import fs from 'fs/promises';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const WELCOME_MESSAGES = [
-    "Welcome aboard! Glad to have you here.",
-    "Hello there! Please read the rules and enjoy your stay.",
-    "A warm welcome to our new member! Hope you enjoy the chat.",
-    "Welcome to the group! Let's keep the conversations flowing.",
-    "Hi! Great to see you join us.",
-    "New member alert! Welcome!"
-];
-
-async function sendWelcome(ctx, chatId, participants) {
-    try {
-        const sock = ctx.bot.sock;
-        if (!sock) return;
-
-        // 1. Ambil Info Grup
-        let groupName = "This Group";
-        let isBotAdmin = false;
-
-        try {
-            const groupMeta = await sock.groupMetadata(chatId);
-            groupName = groupMeta.subject;
-            
-            // Cek apakah bot admin (agar bisa tag member tanpa error privacy)
-            const botId = sock.user.id.split(':')[0];
-            isBotAdmin = groupMeta.participants.some(p => p.admin && p.id.includes(botId));
-        } catch (e) {
-            ctx.logger.warn('WELCOME', 'Failed to fetch group metadata.');
-        }
-
-        // 2. Pilih Pesan Acak
-        const randomMsg = WELCOME_MESSAGES[Math.floor(Math.random() * WELCOME_MESSAGES.length)];
-
-        // 3. Kirim Pesan
-        if (isBotAdmin) {
-            // Jika Admin: Pakai Mentions (Tag Member)
-            const mentions = participants;
-            const textMentions = participants.map(jid => `@${jid.split('@')[0]}`).join(' ');
-            
-            const fullText = `
-*WELCOME TO ${groupName.toUpperCase()}*
-
-${randomMsg}
-
-Halo ${textMentions} 👋
-Silakan baca deskripsi grup ya!
-            `.trim();
-
-            await sock.sendMessage(chatId, { text: fullText, mentions: mentions });
-        } else {
-            // Jika Bukan Admin: Teks Biasa (Tanpa Tag)
-            const simpleText = `
-Welcome to *${groupName}*!
-${randomMsg}
-
-(Note: Make me Admin to enable full welcome features)
-            `.trim();
-            
-            await sock.sendMessage(chatId, { text: simpleText });
-        }
-        
-        ctx.logger.info('WELCOME', `Welcome sent to ${participants.length} users in ${chatId}`);
-
-    } catch (e) {
-        ctx.logger.error('WELCOME', `Error sending welcome: ${e.message}`);
-    }
-}
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, '..');
 
 export default {
     name: "welcome",
-    version: "3.5.0-STABLE", 
-    priority: 99, 
-    cmd: ["wlctest"],
+    version: "4.0-FULL-REWARDS",
+    description: "Sambut member & Reward Add Member",
 
     events: {
-        'group-participants.update': async (ctx) => {
-            // Event ini dipicu oleh engine.dispatch('group-participants.update')
-            const { id: chatId, participants, action } = ctx;
+        'group-participants-update': async (ctx) => {
+            const { id, participants, action, author } = ctx;
             
-            // Hanya merespon jika ada member baru (add)
-            if (action === 'add') {
-                await sendWelcome(ctx, chatId, participants);
+            // Cek engine ada di ctx (dari Core v5.5 ke atas biasanya ada di ctx.config atau kita akses global jika perlu)
+            // Tapi cara paling aman di event handler adalah passing manual lewat argumen jika core mendukung,
+            // atau menggunakan module import jika engine diexport. 
+            // ASUMSI: `ctx` yang dikirim dari Core sudah membawa referensi ke engine/plugins.
+            
+            // Kita gunakan trik akses engine lewat listPlugins (karena ctx.listPlugins ada di core)
+            // Ini untuk mencari plugin 'token_earner'
+            let tokenPlugin = null;
+            if (ctx.listPlugins) {
+                const plugins = ctx.listPlugins();
+                tokenPlugin = plugins.find(p => p.name === 'token_earner');
+            }
+
+            if (action === 'add' || action === 'join') {
+                // 1. LOGIKA REWARD "ADD MEMBER" (Jika ada yang menambahkan)
+                // Syarat: Ada 'author', dan 'author' BUKAN salah satu dari 'participants' (berarti bukan join via link sendiri)
+                if (action === 'add' && author && !participants.includes(author) && tokenPlugin) {
+                    
+                    // Panggil fungsi di token-earner.js
+                    // Kita butuh akses ke engine utama untuk save database user
+                    // Di Core v5.5, ctx tidak membawa object engine penuh, tapi ctx.listPlugins() ada.
+                    // Mari kita impor engine secara dinamis agar aman 100%
+                    const engineModule = await import('../core/index.js');
+                    const engine = engineModule.default;
+
+                    const result = await tokenPlugin.processAddReward(engine, author, participants.length);
+                    
+                    if (result) {
+                        // Kirim notifikasi ke grup (Tag Pengundang)
+                        await ctx.bot.sock.sendMessage(id, {
+                            text: `🌟 *@${author.split('@')[0]}* Added new member!\n💰 Reward: +${result.bonus} Token\n💳 Total: ${result.totalTokens} Token`,
+                            mentions: [author]
+                        });
+                    }
+                }
+
+                // 2. LOGIKA WELCOME MESSAGE & REGISTRASI MEMBER BARU
+                for (const memberId of participants) {
+                    // Register member baru ke sistem token (agar bisa disambut orang lain)
+                    if (tokenPlugin && tokenPlugin.registerNewMember) {
+                        tokenPlugin.registerNewMember(memberId);
+                    }
+
+                    // Kirim Pesan Welcome
+                    try {
+                        let text = `Welcomee @${memberId.split('@')[0]}! 👋\n`;
+                        await ctx.bot.sock.sendMessage(id, { text: text, mentions: [memberId] });
+                    } catch (e) {}
+                }
             }
         }
-    },
-    
-    run: async (ctx) => {
-        // Fitur Test Manual (.wlctest)
-        if (ctx.command === 'wlctest') {
-            if (ctx.user?.role !== 'owner') return ctx.reply("❌ Owner only.");
-            
-            await ctx.reply("🔄 Simulating welcome...");
-            // Simulasi array participants berisi sender
-            await sendWelcome(ctx, ctx.chatId, [ctx.sender]);
-        }
     }
-}
+};

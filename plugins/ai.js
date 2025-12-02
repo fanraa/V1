@@ -8,182 +8,174 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const AI_DATA_PATH = path.join(ROOT, 'data', 'ai.json');
 
-// --- KONFIGURASI AMAN (Dari .env) ---
+// --- TRIGGER KEYWORDS ---
+const TRIGGER_KEYWORDS = ['fanrabot', 'bot', 'assistant'];
+
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY; 
-// 🚀 REVISI COOLDOWN: 10 detik untuk DM, 20 detik untuk non-targeted grup chat
-const DM_COOLDOWN_MS = 10000; 
-const GROUP_COOLDOWN_MS = 20000; 
-// -------------------------
 
-let aiData = { botName: 'Bot', intents: [] };
+let aiData = { 
+    botName: 'FanraBot', 
+    config: { active: true }, 
+    stats: { totalRequests: 0, todayRequests: 0, lastResetDate: '' }
+};
+
 let geminiClient; 
-let lastDmTime = new Map(); // Digunakan untuk DM
-let lastGroupTime = new Map(); // 🚀 Digunakan untuk Cooldown Grup Global
+let lastUserTime = new Map();
 
-// --- FUNGSI UTILITY ---
-function cleanQuery(query) {
-    if (!query) return '';
-    let q = query.toLowerCase().trim();
-    q = q.replace(/[.,\/#!$%\^&*;:{}=\-_`~()]/g, " ");
-    q = q.replace(/\s+/g, ' ');
-    return q;
+async function saveData() {
+    try { await fs.writeFile(AI_DATA_PATH, JSON.stringify(aiData, null, 2)); } catch (e) {}
 }
 
-function getRandomResponse(intentId) {
-    const intent = aiData.intents.find(i => i.id === intentId);
-    if (!intent || intent.responses.length === 0) return null;
-    const responseList = intent.responses;
-    return responseList[Math.floor(Math.random() * responseList.length)].replace('{{botName}}', aiData.botName);
+function checkDailyReset() {
+    const today = new Date().toISOString().split('T')[0]; 
+    if (aiData.stats.lastResetDate !== today) {
+        aiData.stats.todayRequests = 0;
+        aiData.stats.lastResetDate = today;
+        saveData();
+    }
 }
 
-// --- FUNGSI AI ---
-async function getSmartIntent(query, isTargeted, logger) { // Menambahkan logger
-    const q = cleanQuery(query); 
-    
-    // 1. Cek Pola Lokal
-    const sortedIntents = aiData.intents.sort((a, b) => b.priority - a.priority);
-    let matchedIntent = null;
+async function getGeminiResponse(query, logger) {
+    if (!geminiClient) {
+        logger.error('AI', 'Gemini Client Not Ready.');
+        return null;
+    }
+    try {
+        const systemInstruction = `You are ${aiData.botName}, a cool and helpful AI Assistant. 
+        Your default language is English. However, if the user speaks Indonesian or any other language, you MUST reply in that language. 
+        Keep your answers concise and helpful.`;
 
-    for (const intent of sortedIntents) {
-        if (intent.id === 'unrecognized') continue; 
-        for (const patternString of intent.patterns) {
-            try {
-                if (new RegExp(patternString, 'i').test(q)) {
-                    matchedIntent = intent;
-                    logger.debug('AI', `Local intent matched: ${intent.id}`);
-                    break; 
-                }
-            } catch (e) {}
-        }
-        if (matchedIntent) break;
-    }
-    
-    if (matchedIntent) return matchedIntent;
-    
-    // 2. Gemini API
-    // 🚀 HANYA PANGGIL GEMINI JIKA DITARGETKAN
-    if (geminiClient && query.length > 5 && isTargeted) {
-        try {
-            const systemInstruction = `You are a helpful assistant named ${aiData.botName}. Keep responses concise, friendly, and primarily in English.`;
-
-            const response = await geminiClient.models.generateContent({
-                model: 'gemini-2.0-flash', 
-                contents: [{ role: "user", parts: [{ text: query }] }],
-                config: {
-                    systemInstruction: systemInstruction,
-                    temperature: 0.7 
-                }
-            });
-            
-            logger.info('AI', 'Gemini API call success.');
-            
-            return {
-                id: 'gemini_response',
-                responses: [response.text()] 
-            };
-            
-        } catch (e) {
-            logger.error('GEMINI API ERROR', e.message);
-            // Kembalikan unrecognized jika API gagal
-            return {
-                id: 'unrecognized',
-                responses: ["I am having trouble connecting to my AI brain right now."]
-            };
-        }
-    }
-
-    return null; 
+        const response = await geminiClient.models.generateContent({
+            model: 'gemini-2.0-flash', 
+            contents: [{ role: "user", parts: [{ text: query }] }],
+            config: { systemInstruction, maxOutputTokens: 300 }
+        });
+        
+        return response.text || "Sorry, I can't answer that right now."; 
+    } catch (e) {
+        logger.error('AI', `API Error: ${e.message}`);
+        return null;
+    }
 }
 
 export default {
-    name: "ai_chat",
-    version: "5.1.0-FIXED", // Versi diupdate
-    priority: 5, 
+    name: "ai_controller",
+    version: "6.3-OWNER-FIX",
+    cmd: ['ai'],
+    type: 'command', 
 
-    load: async (logger) => {
-        try {
-            const rawData = await fs.readFile(AI_DATA_PATH, 'utf-8');
-            aiData = JSON.parse(rawData);
-            logger.info('AI', `Loaded ${aiData.intents.length} intents.`);
+    load: async (logger) => {
+        try {
+            try { await fs.access(AI_DATA_PATH); } catch {
+                await fs.mkdir(path.dirname(AI_DATA_PATH), { recursive: true });
+                await saveData();
+            }
+            const raw = await fs.readFile(AI_DATA_PATH, 'utf-8');
+            const parsed = JSON.parse(raw);
+            aiData = { ...aiData, ...parsed };
+            if (!aiData.stats) aiData.stats = { totalRequests: 0, todayRequests: 0, lastResetDate: '' };
+            checkDailyReset();
 
-            if (GEMINI_API_KEY) {
-                // 🚀 Menggunakan logger di inisialisasi Gemini
-                geminiClient = new GoogleGenAI(GEMINI_API_KEY);
-                logger.info('AI', 'Gemini Client initialized.');
-            } else {
-                logger.warn('AI', 'GEMINI_API_KEY is missing in .env');
-            }
-        } catch (e) {
-            logger.error('AI', `Failed to load data: ${e.message}`);
-        }
-    },
-
-    events: {
-        'message': async (ctx) => {
-            if (aiData.intents.length === 0) return; 
-
-            const botJid = ctx.bot.sock.user.id;
-            const contextInfo = ctx.raw?.message?.extendedTextMessage?.contextInfo;
-            const participantReplied = contextInfo?.participant;
-            const mentionedJids = contextInfo?.mentionedJid || [];
-            
-            const query = ctx.body || '';
-            if (query.length < 2) return; 
-            if (ctx.command) return;
-            
-            const isPrivateChat = !ctx.isGroup; 
-            
-            // Cek apakah bot ditargetkan (reply atau mention)
-            const isTargeted = mentionedJids.includes(botJid) || participantReplied === botJid;
-
-            // 🚀 COOLDOWN CHECK (Sangat Penting untuk Grup)
-            const now = Date.now();
-            if (isPrivateChat) {
-                const lastTime = lastDmTime.get(ctx.sender) || 0;
-                if (now - lastTime < DM_COOLDOWN_MS) {
-                    ctx.logger.debug('AI', `DM Cooldown active for ${ctx.sender}`);
-                    return; 
-                }
+            if (GEMINI_API_KEY) {
+                geminiClient = new GoogleGenAI(GEMINI_API_KEY);
+                logger.info('AI', `✅ GEMINI CONNECTED. Status: ${aiData.config.active ? 'ON' : 'OFF'}`);
             } else {
-                // Cooldown global per grup (hanya berlaku jika bot TIDAK ditargetkan)
-                if (!isTargeted) {
-                    const lastTime = lastGroupTime.get(ctx.chatId) || 0;
-                    if (now - lastTime < GROUP_COOLDOWN_MS) {
-                        ctx.logger.debug('AI', `Group Cooldown active in ${ctx.chatId}`);
-                        return;
+                logger.warn('AI', '❌ GEMINI API KEY MISSING.');
+            }
+        } catch (e) { logger.error('AI', `Load Failed: ${e.message}`); }
+    },
+
+    run: async (ctx) => {
+        const { args, reply } = ctx;
+        const mode = args[0]?.toLowerCase();
+        checkDailyReset();
+
+        if (mode === 'on') {
+            aiData.config.active = true;
+            await saveData();
+            return reply('🤖 *AI ONLINE*\nSystem is active. Just reply to my message or say "Fanra" to chat!');
+        } else if (mode === 'off') {
+            aiData.config.active = false;
+            await saveData();
+            return reply('💤 *AI OFFLINE*\nSystem deactivated.');
+        }
+        
+        const statusIcon = aiData.config.active ? '✅ ON' : '❌ OFF';
+        return reply(`📊 *AI STATISTICS*\n\n• Status: ${statusIcon}\n• Total Requests: ${aiData.stats.totalRequests}\n• Requests Today: ${aiData.stats.todayRequests}\n\n*Usage Cost:*\n• User: 1 Token / Reply\n• Premium/Owner: Free (Unlimited)`);
+    },
+
+    events: {
+        'message': async (ctx) => {
+            if (!aiData.config.active) return;
+            
+            const query = ctx.body || '';
+            const lowerQuery = query.toLowerCase();
+            if (query.length < 2 || ctx.command) return;
+
+            // --- TRIGGER DETECTION ---
+            const isCalledByName = TRIGGER_KEYWORDS.some(word => lowerQuery.includes(word));
+            
+            const rawMsg = ctx.raw.message;
+            const contextInfo = rawMsg?.extendedTextMessage?.contextInfo || 
+                                rawMsg?.imageMessage?.contextInfo || 
+                                rawMsg?.videoMessage?.contextInfo || 
+                                rawMsg?.stickerMessage?.contextInfo ||
+                                rawMsg?.audioMessage?.contextInfo;
+            const replyParticipant = contextInfo?.participant || '';
+            const user = ctx.bot.sock.user;
+            const myNumber = user.id.split(':')[0].split('@')[0]; 
+            const myLid = user.lid ? user.lid.split(':')[0].split('@')[0] : ''; 
+            const isReplied = replyParticipant.includes(myNumber) || (myLid && replyParticipant.includes(myLid));
+            const isPrivate = !ctx.isGroup;
+
+            if (isCalledByName || isReplied || isPrivate) {
+                
+                // --- 🔥 FIX LOGIKA OWNER DI SINI 🔥 ---
+                const senderId = ctx.sender;
+                
+                // 1. Cek Config Owner (Hardcoded)
+                const isConfigOwner = ctx.isOwner(senderId);
+                
+                // 2. Cek Database Role (Hasil .ownerkey)
+                const isDbOwner = ctx.user && ctx.user.role === 'owner';
+                
+                // Gabungkan: Jika salah satu benar, maka dia OWNER
+                const isRealOwner = isConfigOwner || isDbOwner;
+                
+                const isPremium = ctx.isPremium(senderId);
+                
+                // Logika: Jika BUKAN Owner DAN BUKAN Premium, baru cek token
+                if (!isRealOwner && !isPremium) {
+                    if (ctx.user.tokens < 1) {
+                        await ctx.react('❌'); 
+                        return ctx.reply(`🚫 *Out of Tokens!*\nYou have run out of tokens to chat with AI.\nRemaining Balance: ${ctx.user.tokens}\nType \`.hel\` to know how to get token!.`);
                     }
                 }
-                // Jika pesan ditargetkan ke pengguna lain, AI tidak perlu merespons
-                if (participantReplied && participantReplied !== botJid) return;
-            }
-            // ==========================================
 
-            // 🚀 Menggunakan logger di getSmartIntent
-            let matchedIntent = await getSmartIntent(query, isTargeted, ctx.logger);
-            let finalResponse = null;
+                // Cooldown
+                const now = Date.now();
+                if (now - (lastUserTime.get(ctx.sender) || 0) < 3000) return;
 
-            if (matchedIntent) {
-                finalResponse = getRandomResponse(matchedIntent.id);
-            } else if (isTargeted) { 
-                // 🚀 HANYA RESPON UNRECOGNIZED JIKA DITARGETKAN
-                finalResponse = getRandomResponse('unrecognized');
-                ctx.logger.info('AI', 'Responding with unrecognized intent.');
-            } 
-            // Jika tidak ditargetkan dan tidak ada intent yang cocok, bot akan diam (MENGHILANGKAN SPAM)
+                await ctx.bot.sock.sendPresenceUpdate('composing', ctx.chatId);
+                const answer = await getGeminiResponse(query, ctx.logger);
+                await ctx.bot.sock.sendPresenceUpdate('paused', ctx.chatId);
 
-            if (finalResponse) {
-                await ctx.bot.sock.sendPresenceUpdate('composing', ctx.chatId);
-                await ctx.utils.sleep(ctx.config.get('aiResponseDelay', 1000));
-                await ctx.reply(finalResponse);
-                await ctx.bot.sock.sendPresenceUpdate('paused', ctx.chatId);
+                if (answer) {
+                    // Potong token HANYA jika bukan Owner/Premium
+                    if (!isRealOwner && !isPremium) {
+                        ctx.user.tokens -= 1;
+                        await ctx.saveUsers(); 
+                    }
 
-                // 🚀 UPDATE COOLDOWN (Di Grup dan DM)
-                if (isPrivateChat) {
-                    lastDmTime.set(ctx.sender, Date.now());
-                } else {
-                    lastGroupTime.set(ctx.chatId, Date.now());
+                    checkDailyReset();
+                    aiData.stats.totalRequests += 1;
+                    aiData.stats.todayRequests += 1;
+                    await saveData();
+
+                    await ctx.reply(answer);
+                    lastUserTime.set(ctx.sender, now);
                 }
-            }
-        }
-    }
+            }
+        }
+    }
 };

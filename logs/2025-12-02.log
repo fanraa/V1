@@ -1,0 +1,2076 @@
+[2025-12-02T04:36:58.739Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T04:37:00.195Z] [INFO] [CORE] Starting Engine v4.9 (Fixed Event Dispatcher)...
+[2025-12-02T04:37:00.224Z] [INFO] [DB] Users Loaded: 71
+[2025-12-02T04:37:00.227Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T04:37:00.446Z] [INFO] [PLUGIN] Loaded: ai_controller v2.0.0-SWITCH
+[2025-12-02T04:37:00.449Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T04:37:00.453Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T04:37:00.456Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T04:37:00.909Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T04:37:00.915Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T04:37:00.919Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T04:37:00.922Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T04:37:00.927Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T04:37:00.930Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T04:37:00.936Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T04:37:00.938Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T04:37:00.942Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T04:37:01.353Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T04:37:01.358Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T04:37:01.360Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T04:37:01.361Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T04:37:19.608Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T04:37:19.714Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:37:19.717Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:37:19.718Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:37:19.720Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:37:19.727Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:37:19.728Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:37:19.730Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:37:19.731Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:37:19.737Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:37:19.739Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:37:19.741Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:37:19.742Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:37:19.747Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:37:19.749Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:37:19.751Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:37:19.752Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:37:19.758Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:37:19.759Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:37:19.760Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:37:19.762Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:37:20.337Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:37:20.338Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:37:20.340Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:37:20.341Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:37:21.298Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:37:21.299Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:37:21.301Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:37:21.302Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:37:23.307Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:37:40.260Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:37:40.276Z] [DEBUG] [BADWORDS] Check: ".menu" -> Normalized: "menu" | Profane: false
+[2025-12-02T04:37:40.277Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:37:40.279Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:37:40.281Z] [INFO] [CMD] menu | fanra | OWNER
+[2025-12-02T04:37:40.283Z] [INFO] [CMD-MENU] Menu command triggered by fanra.
+[2025-12-02T04:37:42.011Z] [INFO] [MENU] Forwarded-style menu sent to fanra
+[2025-12-02T04:37:42.273Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:37:44.427Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:37:44.440Z] [DEBUG] [BADWORDS] Check: ".ai" -> Normalized: "ai" | Profane: false
+[2025-12-02T04:37:44.442Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:37:44.444Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:37:44.446Z] [INFO] [CMD] ai | fanra | OWNER
+[2025-12-02T04:37:46.434Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:37:51.375Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:37:51.387Z] [DEBUG] [BADWORDS] Check: ".ai on" -> Normalized: "ai on" | Profane: false
+[2025-12-02T04:37:51.389Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:37:51.391Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:37:51.394Z] [INFO] [CMD] ai | fanra | OWNER
+[2025-12-02T04:37:53.390Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:37:59.372Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:37:59.375Z] [DEBUG] [BADWORDS] Check: ".ai" -> Normalized: "ai" | Profane: false
+[2025-12-02T04:37:59.379Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:37:59.381Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:37:59.385Z] [INFO] [CMD] ai | fanra | OWNER
+[2025-12-02T04:38:01.388Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:38:03.505Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:38:03.507Z] [DEBUG] [BADWORDS] Check: "ga aktif tuh" -> Normalized: "ga aktif tuh" | Profane: false
+[2025-12-02T04:38:03.508Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:38:03.509Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:38:05.518Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:38:37.765Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:38:37.767Z] [DEBUG] [BADWORDS] Check: "Hola" -> Normalized: "hola" | Profane: false
+[2025-12-02T04:38:37.768Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:38:37.769Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:38:39.770Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:38:44.162Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:38:44.165Z] [DEBUG] [BADWORDS] Check: "Good morning" -> Normalized: "good morning" | Profane: false
+[2025-12-02T04:38:44.167Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:38:44.169Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:38:46.179Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:38:49.085Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:38:49.086Z] [DEBUG] [BADWORDS] Check: "@18061058900011 haii" -> Normalized: "aioiosoooii haii" | Profane: false
+[2025-12-02T04:38:49.088Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:38:49.089Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:38:51.131Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:39:19.459Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:39:19.465Z] [DEBUG] [BADWORDS] Check: ".ai on" -> Normalized: "ai on" | Profane: false
+[2025-12-02T04:39:19.467Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:39:19.470Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:39:19.472Z] [INFO] [CMD] ai | fanra | OWNER
+[2025-12-02T04:39:21.467Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:39:27.275Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:39:27.277Z] [DEBUG] [BADWORDS] Check: "ai nya ga ada respon di chat tuh??" -> Normalized: "ai nya ga ada respon di chat tuh" | Profane: false
+[2025-12-02T04:39:27.279Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:39:27.280Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:39:29.287Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:39:39.829Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:39:39.831Z] [DEBUG] [BADWORDS] Check: "nih gua tag" -> Normalized: "nih gua tag" | Profane: false
+[2025-12-02T04:39:39.832Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:39:39.834Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:39:41.839Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:39:43.640Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:39:43.641Z] [DEBUG] [BADWORDS] Check: "@18061058900011 haloo" -> Normalized: "aioiosoooii haloo" | Profane: false
+[2025-12-02T04:39:43.642Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:39:43.644Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:39:45.656Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:39:50.373Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:39:50.375Z] [DEBUG] [BADWORDS] Check: "nah kan tetep" -> Normalized: "nah kan tetep" | Profane: false
+[2025-12-02T04:39:50.377Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:39:50.378Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:39:52.391Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:40:21.070Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:40:21.071Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:40:21.073Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:40:21.074Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:40:23.083Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:40:25.954Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:40:25.956Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:40:25.957Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:40:25.958Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:40:26.457Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:40:26.459Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:40:26.461Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:40:26.462Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:40:28.468Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:40:31.121Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:40:31.122Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:40:31.123Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:40:31.124Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:40:31.334Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:40:31.335Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:40:31.336Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:40:31.337Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:40:31.623Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:40:31.624Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:40:31.625Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:40:31.627Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:40:31.840Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:40:31.841Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:40:31.843Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:40:31.845Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:40:33.850Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:41:59.249Z] [INFO] [PLUGIN] Loaded: ai_controller v3.0.0-DEBUG
+[2025-12-02T04:41:59.250Z] [INFO] [PLUGIN] ♻ Reloaded: ai_controller
+[2025-12-02T04:41:59.986Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T04:42:01.234Z] [INFO] [CORE] Starting Engine v4.9 (Fixed Event Dispatcher)...
+[2025-12-02T04:42:01.254Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T04:42:01.257Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T04:42:01.500Z] [INFO] [PLUGIN] Loaded: ai_controller v3.0.0-DEBUG
+[2025-12-02T04:42:01.505Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T04:42:01.509Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T04:42:01.513Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T04:42:01.937Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T04:42:01.942Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T04:42:01.946Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T04:42:01.949Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T04:42:01.952Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T04:42:01.955Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T04:42:01.958Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T04:42:01.962Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T04:42:01.965Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T04:42:02.321Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T04:42:02.325Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T04:42:02.327Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T04:42:02.329Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T04:42:04.075Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T04:42:09.658Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:42:09.659Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:42:09.660Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T04:42:09.662Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:42:11.676Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:42:20.248Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:42:20.262Z] [DEBUG] [BADWORDS] Check: ".ai" -> Normalized: "ai" | Profane: false
+[2025-12-02T04:42:20.270Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:42:20.272Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:42:20.274Z] [INFO] [CMD] ai | fanra | USER
+[2025-12-02T04:42:22.266Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:42:24.590Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:42:24.605Z] [DEBUG] [BADWORDS] Check: ".ai on" -> Normalized: "ai on" | Profane: false
+[2025-12-02T04:42:24.606Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:42:24.609Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:42:24.612Z] [INFO] [CMD] ai | fanra | USER
+[2025-12-02T04:42:26.603Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:42:30.628Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:42:30.631Z] [DEBUG] [BADWORDS] Check: "@18061058900011 haloo" -> Normalized: "aioiosoooii haloo" | Profane: false
+[2025-12-02T04:42:30.637Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:42:30.639Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:42:32.631Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:42:41.907Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:42:41.909Z] [DEBUG] [BADWORDS] Check: "@18061058900011 apakah kamu aktif?" -> Normalized: "aioiosoooii apakah kamu aktif" | Profane: false
+[2025-12-02T04:42:41.911Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:42:41.912Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:42:43.923Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:42:44.142Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:42:44.145Z] [DEBUG] [BADWORDS] Check: ".menu" -> Normalized: "menu" | Profane: false
+[2025-12-02T04:42:44.146Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:42:44.147Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:42:44.149Z] [INFO] [CMD] menu | fanra | USER
+[2025-12-02T04:42:44.151Z] [INFO] [CMD-MENU] Menu command triggered by fanra.
+[2025-12-02T04:42:46.148Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:42:46.266Z] [INFO] [MENU] Forwarded-style menu sent to fanra
+[2025-12-02T04:44:30.079Z] [INFO] [PLUGIN] Loaded: ai_controller v4.0.0-LID-FIX
+[2025-12-02T04:44:30.082Z] [INFO] [PLUGIN] ♻ Reloaded: ai_controller
+[2025-12-02T04:44:30.803Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T04:44:31.748Z] [INFO] [CORE] Starting Engine v4.9 (Fixed Event Dispatcher)...
+[2025-12-02T04:44:31.764Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T04:44:31.766Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T04:44:31.907Z] [INFO] [PLUGIN] Loaded: ai_controller v4.0.0-LID-FIX
+[2025-12-02T04:44:31.911Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T04:44:31.914Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T04:44:31.917Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T04:44:32.210Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T04:44:32.214Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T04:44:32.217Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T04:44:32.219Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T04:44:32.222Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T04:44:32.225Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T04:44:32.228Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T04:44:32.230Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T04:44:32.233Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T04:44:32.484Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T04:44:32.487Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T04:44:32.489Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T04:44:32.490Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T04:44:34.381Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T04:44:40.893Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:44:40.908Z] [DEBUG] [BADWORDS] Check: ".ai" -> Normalized: "ai" | Profane: false
+[2025-12-02T04:44:40.912Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:44:40.917Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:44:40.928Z] [INFO] [CMD] ai | fanra | USER
+[2025-12-02T04:44:42.906Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:44:44.828Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:44:44.840Z] [DEBUG] [BADWORDS] Check: ".ai on" -> Normalized: "ai on" | Profane: false
+[2025-12-02T04:44:44.842Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:44:44.843Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:44:44.845Z] [INFO] [CMD] ai | fanra | USER
+[2025-12-02T04:44:46.847Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:44:53.051Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:44:53.052Z] [DEBUG] [BADWORDS] Check: "@18061058900011 haloo" -> Normalized: "aioiosoooii haloo" | Profane: false
+[2025-12-02T04:44:53.056Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:44:53.058Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:44:55.068Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:45:12.325Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:45:12.327Z] [DEBUG] [BADWORDS] Check: "@18061058900011 apakabar?" -> Normalized: "aioiosoooii apakabar" | Profane: false
+[2025-12-02T04:45:12.330Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:45:12.332Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:45:14.342Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:45:19.892Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:45:19.894Z] [DEBUG] [BADWORDS] Check: "@18061058900011 kamu siapa?" -> Normalized: "aioiosoooii kamu siapa" | Profane: false
+[2025-12-02T04:45:19.897Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:45:19.898Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:45:21.895Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:45:23.899Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:45:23.902Z] [DEBUG] [BADWORDS] Check: ".menu" -> Normalized: "menu" | Profane: false
+[2025-12-02T04:45:23.904Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:45:23.906Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:45:23.908Z] [INFO] [CMD] menu | fanra | USER
+[2025-12-02T04:45:23.910Z] [INFO] [CMD-MENU] Menu command triggered by fanra.
+[2025-12-02T04:45:25.908Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:45:26.114Z] [INFO] [MENU] Forwarded-style menu sent to fanra
+[2025-12-02T04:45:27.067Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:45:27.069Z] [DEBUG] [BADWORDS] Check: ".ping" -> Normalized: "ping" | Profane: false
+[2025-12-02T04:45:27.070Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:45:27.072Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:45:27.075Z] [INFO] [CMD] ping | fanra | USER
+[2025-12-02T04:45:27.078Z] [INFO] [CMD-PING] Ping command triggered by fanra.
+[2025-12-02T04:45:29.077Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:45:35.762Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:45:35.764Z] [DEBUG] [BADWORDS] Check: ".ping" -> Normalized: "ping" | Profane: false
+[2025-12-02T04:45:35.766Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:45:35.767Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:45:35.768Z] [INFO] [CMD] ping | fanra | USER
+[2025-12-02T04:45:35.770Z] [INFO] [CMD-PING] Ping command triggered by fanra.
+[2025-12-02T04:45:37.769Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:45:39.357Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:45:39.360Z] [DEBUG] [BADWORDS] Check: ".setting" -> Normalized: "setting" | Profane: false
+[2025-12-02T04:45:39.361Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:45:39.363Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:45:39.364Z] [INFO] [CMD] setting | fanra | USER
+[2025-12-02T04:45:41.373Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:45:57.016Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T04:45:57.019Z] [INFO] [PLUGIN] ♻ Reloaded: ping
+[2025-12-02T04:45:57.721Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T04:45:58.676Z] [INFO] [CORE] Starting Engine v4.9 (Fixed Event Dispatcher)...
+[2025-12-02T04:45:58.696Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T04:45:58.698Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T04:45:58.841Z] [INFO] [PLUGIN] Loaded: ai_controller v4.0.0-LID-FIX
+[2025-12-02T04:45:58.845Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T04:45:58.848Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T04:45:58.851Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T04:45:59.145Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T04:45:59.150Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T04:45:59.153Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T04:45:59.155Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T04:45:59.158Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T04:45:59.162Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T04:45:59.165Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T04:45:59.168Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T04:45:59.172Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T04:45:59.446Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T04:45:59.449Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T04:45:59.451Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T04:45:59.453Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T04:46:01.527Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T04:46:04.414Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:46:04.433Z] [DEBUG] [BADWORDS] Check: ".ping" -> Normalized: "ping" | Profane: false
+[2025-12-02T04:46:04.435Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:46:04.437Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:46:04.439Z] [INFO] [CMD] ping | fanra | USER
+[2025-12-02T04:46:04.441Z] [INFO] [CMD-PING] Ping command triggered by fanra.
+[2025-12-02T04:46:06.419Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:47:39.637Z] [INFO] [PLUGIN] Loaded: ai_controller v5.0-KEYWORD-SYSTEM
+[2025-12-02T04:47:39.640Z] [INFO] [PLUGIN] ♻ Reloaded: ai_controller
+[2025-12-02T04:47:40.350Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T04:47:41.574Z] [INFO] [CORE] Starting Engine v4.9 (Fixed Event Dispatcher)...
+[2025-12-02T04:47:41.599Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T04:47:41.601Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T04:47:41.840Z] [INFO] [PLUGIN] Loaded: ai_controller v5.0-KEYWORD-SYSTEM
+[2025-12-02T04:47:41.845Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T04:47:41.849Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T04:47:41.852Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T04:47:42.295Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T04:47:42.301Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T04:47:42.305Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T04:47:42.309Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T04:47:42.315Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T04:47:42.319Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T04:47:42.323Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T04:47:42.328Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T04:47:42.332Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T04:47:42.722Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T04:47:42.727Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T04:47:42.730Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T04:47:42.731Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T04:47:44.715Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T04:47:55.227Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:47:55.240Z] [DEBUG] [BADWORDS] Check: ".ai on" -> Normalized: "ai on" | Profane: false
+[2025-12-02T04:47:55.243Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:47:55.246Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:47:55.249Z] [INFO] [CMD] ai | fanra | USER
+[2025-12-02T04:47:57.241Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:48:11.122Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:48:11.145Z] [DEBUG] [BADWORDS] Check: "Halo Fanra apa kabar" -> Normalized: "halo fanra apa kabar" | Profane: false
+[2025-12-02T04:48:11.149Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:48:11.151Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:48:13.130Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:48:16.627Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:48:16.649Z] [DEBUG] [BADWORDS] Check: "Fanta" -> Normalized: "fanta" | Profane: false
+[2025-12-02T04:48:16.650Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:48:16.652Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:48:18.643Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:48:19.396Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:48:19.399Z] [DEBUG] [BADWORDS] Check: "Hai fanra" -> Normalized: "hai fanra" | Profane: false
+[2025-12-02T04:48:19.405Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:48:19.408Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:48:21.398Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:48:31.945Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:48:31.947Z] [DEBUG] [BADWORDS] Check: "Fanraaa" -> Normalized: "fanraaa" | Profane: false
+[2025-12-02T04:48:31.951Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:48:31.952Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:48:33.952Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:48:36.108Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:48:36.111Z] [DEBUG] [BADWORDS] Check: "Ga jawab tuh?" -> Normalized: "ga jawab tuh" | Profane: false
+[2025-12-02T04:48:36.113Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:48:36.115Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:48:38.113Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:48:51.788Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:48:51.790Z] [DEBUG] [BADWORDS] Check: "Bahkan fanra aku ketik .ai ga ada respon balasan di chat" -> Normalized: "bahkan fanra aku ketik ai ga ada respon balasan di chat" | Profane: false
+[2025-12-02T04:48:51.793Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:48:51.795Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:48:53.793Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:54:59.733Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T04:56:55.483Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T04:56:57.147Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T04:56:57.172Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T04:56:57.176Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T04:56:57.448Z] [INFO] [PLUGIN] Loaded: ai_controller v5.0-KEYWORD-SYSTEM
+[2025-12-02T04:56:57.459Z] [INFO] [AI] Ready. Mode: Keyword Trigger. Status: ON
+[2025-12-02T04:56:57.464Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T04:56:57.469Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T04:56:57.476Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T04:56:58.035Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T04:56:58.042Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T04:56:58.046Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T04:56:58.050Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T04:56:58.053Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T04:56:58.062Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T04:56:58.067Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T04:56:58.071Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T04:56:58.077Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T04:56:58.627Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T04:56:58.632Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T04:56:58.635Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T04:56:58.636Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T04:57:00.379Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T04:57:10.334Z] [INFO] [PLUGIN] Loaded: ai_controller v5.5-FULL-FIX
+[2025-12-02T04:57:10.346Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T04:57:10.348Z] [INFO] [PLUGIN] ♻ Reloaded: ai_controller
+[2025-12-02T04:57:11.160Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T04:57:12.242Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T04:57:12.262Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T04:57:12.264Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T04:57:12.427Z] [INFO] [PLUGIN] Loaded: ai_controller v5.5-FULL-FIX
+[2025-12-02T04:57:12.433Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T04:57:12.436Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T04:57:12.439Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T04:57:12.441Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T04:57:12.740Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T04:57:12.745Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T04:57:12.748Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T04:57:12.750Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T04:57:12.753Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T04:57:12.755Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T04:57:12.759Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T04:57:12.762Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T04:57:12.765Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T04:57:13.028Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T04:57:13.031Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T04:57:13.033Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T04:57:13.035Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T04:57:15.193Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T04:57:32.958Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:57:32.972Z] [DEBUG] [BADWORDS] Check: ".ping" -> Normalized: "ping" | Profane: false
+[2025-12-02T04:57:32.973Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:57:32.975Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:57:32.977Z] [INFO] [CMD] ping | fanra | USER
+[2025-12-02T04:57:32.978Z] [INFO] [CMD-PING] Ping command triggered by fanra.
+[2025-12-02T04:57:34.969Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:57:37.695Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:57:37.710Z] [DEBUG] [BADWORDS] Check: ".ai" -> Normalized: "ai" | Profane: false
+[2025-12-02T04:57:37.712Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:57:37.714Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:57:37.718Z] [INFO] [CMD] ai | fanra | USER
+[2025-12-02T04:57:39.699Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:57:46.591Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:57:46.593Z] [DEBUG] [BADWORDS] Check: "Hai fanra" -> Normalized: "hai fanra" | Profane: false
+[2025-12-02T04:57:47.175Z] [ERROR] [AI] API Error: {"error":{"code":403,"message":"Your API key was reported as leaked. Please use another API key.","status":"PERMISSION_DENIED"}}
+[2025-12-02T04:57:47.180Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:57:47.181Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:57:48.624Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:58:21.352Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:58:21.354Z] [DEBUG] [BADWORDS] Check: ".ai on" -> Normalized: "ai on" | Profane: false
+[2025-12-02T04:58:21.356Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:58:21.357Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:58:21.359Z] [INFO] [CMD] ai | fanra | USER
+[2025-12-02T04:58:23.363Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:58:26.232Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:58:26.235Z] [DEBUG] [BADWORDS] Check: ".ai off" -> Normalized: "ai off" | Profane: false
+[2025-12-02T04:58:26.241Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:58:26.243Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:58:26.247Z] [INFO] [CMD] ai | fanra | USER
+[2025-12-02T04:58:28.246Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:58:32.314Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:58:32.325Z] [DEBUG] [BADWORDS] Check: "Haii fanra" -> Normalized: "haii fanra" | Profane: false
+[2025-12-02T04:58:32.339Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:58:32.348Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:58:34.321Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:58:36.616Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:58:36.619Z] [DEBUG] [BADWORDS] Check: ".ping" -> Normalized: "ping" | Profane: false
+[2025-12-02T04:58:36.620Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:58:36.622Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:58:36.625Z] [INFO] [CMD] ping | fanra | USER
+[2025-12-02T04:58:36.634Z] [INFO] [CMD-PING] Ping command triggered by fanra.
+[2025-12-02T04:58:38.631Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:58:41.416Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:58:41.419Z] [DEBUG] [BADWORDS] Check: ".ai" -> Normalized: "ai" | Profane: false
+[2025-12-02T04:58:41.420Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:58:41.421Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:58:41.423Z] [INFO] [CMD] ai | fanra | USER
+[2025-12-02T04:58:43.423Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:58:45.154Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:58:45.156Z] [DEBUG] [BADWORDS] Check: ".ai on" -> Normalized: "ai on" | Profane: false
+[2025-12-02T04:58:45.157Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:58:45.159Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:58:45.160Z] [INFO] [CMD] ai | fanra | USER
+[2025-12-02T04:58:47.159Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:58:50.759Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:58:50.760Z] [DEBUG] [BADWORDS] Check: "Hai bot" -> Normalized: "hai bot" | Profane: false
+[2025-12-02T04:58:51.070Z] [ERROR] [AI] API Error: {"error":{"code":403,"message":"Your API key was reported as leaked. Please use another API key.","status":"PERMISSION_DENIED"}}
+[2025-12-02T04:58:51.073Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T04:58:51.074Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T04:58:52.768Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T04:59:47.277Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T04:59:48.434Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T04:59:48.462Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T04:59:48.464Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T04:59:48.696Z] [INFO] [PLUGIN] Loaded: ai_controller v5.5-FULL-FIX
+[2025-12-02T04:59:48.701Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T04:59:48.704Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T04:59:48.707Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T04:59:48.710Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T04:59:49.058Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T04:59:49.064Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T04:59:49.067Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T04:59:49.070Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T04:59:49.073Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T04:59:49.078Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T04:59:49.082Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T04:59:49.085Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T04:59:49.087Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T04:59:49.432Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T04:59:49.436Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T04:59:49.438Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T04:59:49.440Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T04:59:51.514Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T04:59:59.821Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T04:59:59.836Z] [DEBUG] [BADWORDS] Check: "Hai bot" -> Normalized: "hai bot" | Profane: false
+[2025-12-02T05:00:00.850Z] [ERROR] [AI] API Error: response.text is not a function
+[2025-12-02T05:00:00.856Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:00:00.861Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:00:01.827Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:00:55.120Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:00:56.391Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:00:56.410Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:00:56.414Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:00:56.585Z] [INFO] [PLUGIN] Loaded: ai_controller v5.5-FULL-FIX
+[2025-12-02T05:00:56.592Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:00:56.595Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:00:56.599Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:00:56.602Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:00:56.960Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:00:56.965Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:00:56.968Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:00:56.972Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:00:56.975Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:00:56.980Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:00:56.983Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:00:56.986Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:00:56.990Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:00:57.305Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:00:57.308Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T05:00:57.311Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:00:57.313Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:01:00.070Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:01:01.510Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:01:01.525Z] [DEBUG] [BADWORDS] Check: "Haii bot" -> Normalized: "haii bot" | Profane: false
+[2025-12-02T05:01:02.779Z] [ERROR] [AI] API Error: response.text is not a function
+[2025-12-02T05:01:02.783Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:01:02.786Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:01:03.520Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:01:09.318Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:01:09.331Z] [DEBUG] [BADWORDS] Check: "Hai fanra" -> Normalized: "hai fanra" | Profane: false
+[2025-12-02T05:01:10.680Z] [ERROR] [AI] API Error: response.text is not a function
+[2025-12-02T05:01:10.683Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:01:10.690Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:01:11.321Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:02:57.401Z] [INFO] [PLUGIN] Loaded: ai_controller v5.6-STABLE
+[2025-12-02T05:02:57.413Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:02:57.417Z] [INFO] [PLUGIN] ♻ Reloaded: ai_controller
+[2025-12-02T05:02:58.109Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:02:59.085Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:02:59.106Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:02:59.108Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:02:59.302Z] [INFO] [PLUGIN] Loaded: ai_controller v5.6-STABLE
+[2025-12-02T05:02:59.309Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:02:59.314Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:02:59.318Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:02:59.321Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:02:59.706Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:02:59.711Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:02:59.715Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:02:59.718Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:02:59.720Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:02:59.723Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:02:59.726Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:02:59.730Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:02:59.734Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:03:00.066Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:03:00.070Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T05:03:00.072Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:03:00.073Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:03:02.068Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:03:07.800Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:03:07.812Z] [DEBUG] [BADWORDS] Check: "Hai fanra" -> Normalized: "hai fanra" | Profane: false
+[2025-12-02T05:03:09.809Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:03:10.466Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:03:10.468Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:03:19.094Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:03:19.118Z] [DEBUG] [BADWORDS] Check: "Kamu siapa fanra?" -> Normalized: "kamu siapa fanra" | Profane: false
+[2025-12-02T05:03:20.608Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:03:20.609Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:03:21.107Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:03:36.092Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:03:36.105Z] [DEBUG] [BADWORDS] Check: "Ini berapa bot? 1+1=" -> Normalized: "ini berapa bot iti" | Profane: false
+[2025-12-02T05:03:37.521Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:03:37.522Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:03:38.108Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:03:58.011Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:03:58.026Z] [DEBUG] [BADWORDS] Check: "Fanra can you speak English?" -> Normalized: "fanra can you speak english" | Profane: false
+[2025-12-02T05:03:59.634Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:03:59.636Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:04:00.030Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:04:49.579Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:04:49.587Z] [DEBUG] [BADWORDS] Check: "Fanra 1+3×8+3=" -> Normalized: "fanra itete" | Profane: false
+[2025-12-02T05:04:51.143Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:04:51.144Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:04:51.594Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:09:41.197Z] [INFO] [PLUGIN] Loaded: ai_controller v6.0-ECONOMY
+[2025-12-02T05:09:41.215Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:09:41.218Z] [INFO] [PLUGIN] ♻ Reloaded: ai_controller
+[2025-12-02T05:09:41.973Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:09:42.982Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:09:43.001Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:09:43.003Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:09:43.198Z] [INFO] [PLUGIN] Loaded: ai_controller v6.0-ECONOMY
+[2025-12-02T05:09:43.204Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:09:43.208Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:09:43.211Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:09:43.214Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:09:43.659Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:09:43.664Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:09:43.666Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:09:43.669Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:09:43.672Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:09:43.678Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:09:43.685Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:09:43.688Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:09:43.694Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:09:44.017Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:09:44.020Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T05:09:44.022Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:09:44.023Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:09:48.312Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:09:57.053Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:09:57.068Z] [DEBUG] [BADWORDS] Check: ".ai" -> Normalized: "ai" | Profane: false
+[2025-12-02T05:09:57.072Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:09:57.074Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:09:57.076Z] [INFO] [CMD] ai | fanra | USER
+[2025-12-02T05:09:59.065Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:10:13.318Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:10:13.336Z] [DEBUG] [BADWORDS] Check: "hai bot" -> Normalized: "hai bot" | Profane: false
+[2025-12-02T05:10:14.510Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:10:14.864Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:10:14.866Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:10:15.333Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:10:28.270Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:10:28.281Z] [DEBUG] [BADWORDS] Check: "What's your name?" -> Normalized: "whats your name" | Profane: false
+[2025-12-02T05:10:28.283Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:10:28.285Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:10:30.286Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:10:42.614Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:10:42.617Z] [DEBUG] [BADWORDS] Check: "What's your name bot?" -> Normalized: "whats your name bot" | Profane: false
+[2025-12-02T05:10:43.718Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:10:44.038Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:10:44.040Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:10:44.620Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:11:25.988Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:11:25.990Z] [DEBUG] [BADWORDS] Check: ".au" -> Normalized: "au" | Profane: false
+[2025-12-02T05:11:25.991Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:11:25.992Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:11:25.994Z] [INFO] [CMD] au | fanra | USER
+[2025-12-02T05:11:27.561Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:11:27.565Z] [DEBUG] [BADWORDS] Check: ".ai" -> Normalized: "ai" | Profane: false
+[2025-12-02T05:11:27.567Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:11:27.570Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:11:27.572Z] [INFO] [CMD] ai | fanra | USER
+[2025-12-02T05:11:29.578Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:11:46.865Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:11:46.867Z] [DEBUG] [BADWORDS] Check: "menu bot" -> Normalized: "menu bot" | Profane: false
+[2025-12-02T05:11:48.078Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:11:48.383Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:11:48.384Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:11:48.880Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:11:55.194Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:11:55.196Z] [DEBUG] [BADWORDS] Check: "bot ping" -> Normalized: "bot ping" | Profane: false
+[2025-12-02T05:11:56.204Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:11:56.537Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:11:56.538Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:11:57.198Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:12:05.220Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:12:05.222Z] [DEBUG] [BADWORDS] Check: "haha kau sungguh lucu bot" -> Normalized: "haha kau sungguh lucu bot" | Profane: false
+[2025-12-02T05:12:06.261Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:12:06.566Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:12:06.567Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:12:07.225Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:12:21.514Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:12:21.517Z] [DEBUG] [BADWORDS] Check: "Panggil aku z bot" -> Normalized: "panggil aku z bot" | Profane: false
+[2025-12-02T05:12:22.634Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:12:22.936Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:12:22.937Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:12:23.518Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:12:30.624Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:12:30.629Z] [DEBUG] [BADWORDS] Check: "Siapa namaku tadi bot?" -> Normalized: "siapa namaku tadi bot" | Profane: false
+[2025-12-02T05:12:31.567Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:12:31.887Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:12:31.888Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:12:32.627Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:12:53.650Z] [INFO] [PLUGIN] Loaded: ai_controller v6.1-REPLY-FIX
+[2025-12-02T05:12:53.668Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:12:53.670Z] [INFO] [PLUGIN] ♻ Reloaded: ai_controller
+[2025-12-02T05:12:54.408Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:12:55.419Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:12:55.445Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:12:55.447Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:12:55.665Z] [INFO] [PLUGIN] Loaded: ai_controller v6.1-REPLY-FIX
+[2025-12-02T05:12:55.671Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:12:55.674Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:12:55.677Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:12:55.680Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:12:56.067Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:12:56.073Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:12:56.076Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:12:56.080Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:12:56.084Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:12:56.088Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:12:56.092Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:12:56.096Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:12:56.099Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:12:56.438Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:12:56.441Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T05:12:56.443Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:12:56.444Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:13:21.615Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:13:24.071Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:13:24.088Z] [DEBUG] [BADWORDS] Check: "Siapakah presiden Indonesia saat ini bot?" -> Normalized: "siapakah presiden indonesia saat ini bot" | Profane: false
+[2025-12-02T05:13:25.328Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:13:26.077Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:13:26.404Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:13:26.406Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:13:37.102Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:13:37.116Z] [DEBUG] [BADWORDS] Check: "Bukannya Prabowo bot?" -> Normalized: "bukannya prabowo bot" | Profane: false
+[2025-12-02T05:13:38.295Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:13:38.695Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:13:38.696Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:13:39.106Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:14:26.901Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:14:26.902Z] [DEBUG] [BADWORDS] Check: "kamu tau aku?" -> Normalized: "kamu tau aku" | Profane: false
+[2025-12-02T05:14:27.878Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:14:28.275Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:14:28.277Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:14:28.907Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:14:42.448Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:14:42.450Z] [DEBUG] [BADWORDS] Check: ".menu" -> Normalized: "menu" | Profane: false
+[2025-12-02T05:14:42.452Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:14:42.453Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:14:42.454Z] [INFO] [CMD] menu | fanra | USER
+[2025-12-02T05:14:42.456Z] [INFO] [CMD-MENU] Menu command triggered by fanra.
+[2025-12-02T05:14:43.897Z] [INFO] [MENU] Forwarded-style menu sent to fanra
+[2025-12-02T05:14:44.453Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:14:55.035Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:14:55.038Z] [DEBUG] [BADWORDS] Check: "kick dia dari grup bot" -> Normalized: "kick dia dari grup bot" | Profane: false
+[2025-12-02T05:14:56.086Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:14:56.089Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:14:57.053Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:15:04.492Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:15:04.494Z] [DEBUG] [BADWORDS] Check: ".my id" -> Normalized: "my id" | Profane: false
+[2025-12-02T05:15:04.496Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:15:04.497Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:15:04.503Z] [INFO] [CMD] my | fanra | USER
+[2025-12-02T05:15:06.507Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:15:06.509Z] [DEBUG] [BADWORDS] Check: ".myid" -> Normalized: "myid" | Profane: false
+[2025-12-02T05:15:06.511Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:15:06.513Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:15:06.516Z] [INFO] [CMD] myid | fanra | USER
+[2025-12-02T05:15:06.524Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:15:08.520Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:15:11.635Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:15:11.637Z] [DEBUG] [BADWORDS] Check: ".kick her" -> Normalized: "kick her" | Profane: false
+[2025-12-02T05:15:11.638Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:15:11.640Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:15:11.641Z] [INFO] [CMD] kick | fanra | USER
+[2025-12-02T05:15:13.643Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:15:17.353Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:15:17.358Z] [DEBUG] [BADWORDS] Check: "kick her bot" -> Normalized: "kick her bot" | Profane: false
+[2025-12-02T05:15:18.380Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:15:18.382Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:15:19.366Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:15:32.556Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:15:32.558Z] [DEBUG] [BADWORDS] Check: ".ai" -> Normalized: "ai" | Profane: false
+[2025-12-02T05:15:32.559Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:15:32.561Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:15:32.562Z] [INFO] [CMD] ai | fanra | USER
+[2025-12-02T05:15:34.559Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:17:07.628Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:17:07.630Z] [DEBUG] [BADWORDS] Check: ".codei47r32a6" -> Normalized: "codeiatrea" | Profane: false
+[2025-12-02T05:17:07.632Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:17:07.633Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:17:07.637Z] [INFO] [CMD] codei47r32a6 | fanra | USER
+[2025-12-02T05:17:07.646Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:17:08.047Z] [INFO] [OWNERKEY] SUCCESS: 6790494347481 activated Owner role.
+[2025-12-02T05:17:09.633Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:17:12.559Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:17:12.561Z] [DEBUG] [BADWORDS] Check: "Haii bot" -> Normalized: "haii bot" | Profane: false
+[2025-12-02T05:17:13.591Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:17:13.592Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:17:14.568Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:17:20.814Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:17:20.817Z] [DEBUG] [BADWORDS] Check: ".myif" -> Normalized: "myif" | Profane: false
+[2025-12-02T05:17:20.820Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:17:20.822Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:17:20.826Z] [INFO] [CMD] myif | fanra | OWNER
+[2025-12-02T05:17:22.820Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:17:22.909Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:17:22.912Z] [DEBUG] [BADWORDS] Check: ".myid" -> Normalized: "myid" | Profane: false
+[2025-12-02T05:17:22.914Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:17:22.916Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:17:22.921Z] [INFO] [CMD] myid | fanra | OWNER
+[2025-12-02T05:17:24.924Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:17:40.188Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:17:40.190Z] [DEBUG] [BADWORDS] Check: "Halo bot apakabar?" -> Normalized: "halo bot apakabar" | Profane: false
+[2025-12-02T05:17:41.185Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:17:41.187Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:17:42.196Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:17:50.806Z] [INFO] [PLUGIN] Loaded: ai_controller v6.2-ENGLISH-STD
+[2025-12-02T05:17:50.820Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:17:50.822Z] [INFO] [PLUGIN] ♻ Reloaded: ai_controller
+[2025-12-02T05:17:51.680Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:17:53.023Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:17:53.043Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:17:53.046Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:17:53.254Z] [INFO] [PLUGIN] Loaded: ai_controller v6.2-ENGLISH-STD
+[2025-12-02T05:17:53.263Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:17:53.267Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:17:53.271Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:17:53.276Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:17:53.712Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:17:53.717Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:17:53.721Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:17:53.724Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:17:53.726Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:17:53.729Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:17:53.733Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:17:53.736Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:17:53.740Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:17:54.136Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:17:54.141Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T05:17:54.144Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:17:54.145Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:17:56.202Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:18:03.832Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:18:03.849Z] [DEBUG] [BADWORDS] Check: "Hai bot apakar?" -> Normalized: "hai bot apakar" | Profane: false
+[2025-12-02T05:18:04.820Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:18:04.824Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:18:05.840Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:19:03.300Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:19:03.328Z] [DEBUG] [BADWORDS] Check: ".menu" -> Normalized: "menu" | Profane: false
+[2025-12-02T05:19:03.330Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:19:03.333Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:19:03.335Z] [INFO] [CMD] menu | fanra | OWNER
+[2025-12-02T05:19:03.342Z] [INFO] [CMD-MENU] Menu command triggered by fanra.
+[2025-12-02T05:19:04.646Z] [INFO] [MENU] Forwarded-style menu sent to fanra
+[2025-12-02T05:19:05.327Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:19:05.697Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:19:05.717Z] [DEBUG] [BADWORDS] Check: ".ping" -> Normalized: "ping" | Profane: false
+[2025-12-02T05:19:05.719Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:19:05.723Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:19:05.726Z] [INFO] [CMD] ping | fanra | OWNER
+[2025-12-02T05:19:05.728Z] [INFO] [CMD-PING] Ping command triggered by fanra.
+[2025-12-02T05:19:07.704Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:19:22.802Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:19:22.803Z] [INFO] [PLUGIN] ♻ Reloaded: ping
+[2025-12-02T05:19:23.581Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:19:24.653Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:19:24.670Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:19:24.674Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:19:24.850Z] [INFO] [PLUGIN] Loaded: ai_controller v6.2-ENGLISH-STD
+[2025-12-02T05:19:24.858Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:19:24.862Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:19:24.872Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:19:24.877Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:19:25.319Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:19:25.332Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:19:25.337Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:19:25.345Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:19:25.351Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:19:25.356Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:19:25.360Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:19:25.365Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:19:25.369Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:19:25.732Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:19:25.736Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T05:19:25.739Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:19:25.741Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:19:28.299Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:19:48.588Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:19:48.600Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:19:48.602Z] [INFO] [PLUGIN] ♻ Reloaded: ai_controller
+[2025-12-02T05:19:49.359Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:19:50.415Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:19:50.434Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:19:50.436Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:19:50.645Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:19:50.655Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:19:50.658Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:19:50.663Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:19:50.667Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:19:51.001Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:19:51.005Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:19:51.008Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:19:51.011Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:19:51.014Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:19:51.017Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:19:51.021Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:19:51.023Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:19:51.025Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:19:51.307Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:19:51.311Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T05:19:51.313Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:19:51.315Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:19:55.456Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:19:58.305Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:19:58.317Z] [DEBUG] [BADWORDS] Check: "Hai bot apakabar?" -> Normalized: "hai bot apakabar" | Profane: false
+[2025-12-02T05:20:00.310Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:20:01.049Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:20:01.052Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:20:05.958Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:20:05.970Z] [DEBUG] [BADWORDS] Check: ".ai" -> Normalized: "ai" | Profane: false
+[2025-12-02T05:20:05.972Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:20:05.973Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:20:05.975Z] [INFO] [CMD] ai | fanra | OWNER
+[2025-12-02T05:20:07.969Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:28:21.210Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:28:21.244Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:28:21.245Z] [INFO] [PLUGIN] ♻ Reloaded: ai_controller
+[2025-12-02T05:28:22.159Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:28:23.919Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:28:25.192Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:28:25.214Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:28:25.216Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:28:25.434Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:28:25.441Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:28:25.444Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:28:25.448Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:28:25.452Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:28:25.969Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:28:25.975Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:28:25.981Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:28:25.984Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:28:25.989Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:28:25.993Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:28:25.996Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:28:25.999Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:28:26.002Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:28:26.393Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:28:26.398Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T05:28:26.403Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:28:26.405Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:28:28.577Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:29:07.941Z] [INFO] [PLUGIN] Loaded: token_earner v1.0-ECONOMY
+[2025-12-02T05:29:07.943Z] [INFO] [PLUGIN] ♻ Reloaded: token_earner
+[2025-12-02T05:29:08.675Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:29:09.701Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:29:09.720Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:29:09.722Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:29:09.912Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:29:09.919Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:29:09.923Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:29:09.927Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:29:09.931Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:29:10.419Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:29:10.427Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:29:10.431Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:29:10.434Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:29:10.438Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:29:10.444Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:29:10.448Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:29:10.452Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:29:10.459Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:29:10.862Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:29:10.866Z] [INFO] [PLUGIN] Loaded: token_earner v1.0-ECONOMY
+[2025-12-02T05:29:10.869Z] [INFO] [PLUGIN] Loaded: welcome v3.5.0-STABLE
+[2025-12-02T05:29:10.872Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:29:10.874Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:29:12.897Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:30:00.270Z] [INFO] [PLUGIN] Loaded: welcome v3.6-TOKEN-LINKED
+[2025-12-02T05:30:00.283Z] [INFO] [PLUGIN] ♻ Reloaded: welcome
+[2025-12-02T05:30:01.012Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:30:02.025Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:30:02.043Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:30:02.045Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:30:02.234Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:30:02.242Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:30:02.245Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:30:02.250Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:30:02.255Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:30:02.849Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:30:02.855Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:30:02.858Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:30:02.861Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:30:02.865Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:30:02.871Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:30:02.874Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:30:02.878Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:30:02.883Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:30:03.292Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:30:03.295Z] [INFO] [PLUGIN] Loaded: token_earner v1.0-ECONOMY
+[2025-12-02T05:30:03.300Z] [INFO] [PLUGIN] Loaded: welcome v3.6-TOKEN-LINKED
+[2025-12-02T05:30:03.303Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:30:03.306Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:30:05.737Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:31:20.764Z] [INFO] [PLUGIN] Loaded: welcome v3.6-TOKEN-LINKED
+[2025-12-02T05:31:20.768Z] [INFO] [PLUGIN] ♻ Reloaded: welcome
+[2025-12-02T05:31:21.537Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:31:22.698Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:31:22.729Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:31:22.732Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:31:23.037Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:31:23.053Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:31:23.058Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:31:23.061Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:31:23.068Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:31:23.555Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:31:23.559Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:31:23.563Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:31:23.567Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:31:23.570Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:31:23.574Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:31:23.578Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:31:23.582Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:31:23.585Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:31:23.965Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:31:23.969Z] [INFO] [PLUGIN] Loaded: token_earner v1.0-ECONOMY
+[2025-12-02T05:31:23.971Z] [INFO] [PLUGIN] Loaded: welcome v3.6-TOKEN-LINKED
+[2025-12-02T05:31:23.974Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:31:23.975Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:31:26.090Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:31:33.952Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:31:33.964Z] [DEBUG] [BADWORDS] Check: "hello, welcome to the group" -> Normalized: "hello welcome to the group" | Profane: false
+[2025-12-02T05:31:33.967Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:31:33.969Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:31:35.996Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:31:40.523Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:31:40.542Z] [DEBUG] [BADWORDS] Check: "tapibkan" -> Normalized: "tapibkan" | Profane: false
+[2025-12-02T05:31:40.546Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:31:40.549Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:31:42.539Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:31:42.834Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:31:42.836Z] [DEBUG] [BADWORDS] Check: ".ai" -> Normalized: "ai" | Profane: false
+[2025-12-02T05:31:42.837Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:31:42.839Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:31:42.841Z] [INFO] [CMD] ai | fanra | OWNER
+[2025-12-02T05:31:44.844Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:31:46.971Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:31:46.973Z] [DEBUG] [BADWORDS] Check: ".token" -> Normalized: "token" | Profane: false
+[2025-12-02T05:31:46.974Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:31:46.976Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:31:46.978Z] [INFO] [CMD] token | fanra | OWNER
+[2025-12-02T05:31:48.981Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:31:51.266Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:31:51.269Z] [DEBUG] [BADWORDS] Check: ".myid" -> Normalized: "myid" | Profane: false
+[2025-12-02T05:31:51.270Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:31:51.272Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:31:51.274Z] [INFO] [CMD] myid | fanra | OWNER
+[2025-12-02T05:31:53.275Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:31:59.777Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:31:59.779Z] [DEBUG] [BADWORDS] Check: ".menu" -> Normalized: "menu" | Profane: false
+[2025-12-02T05:31:59.780Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:31:59.782Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:31:59.785Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:32:00.112Z] [INFO] [CMD] menu | fanra | OWNER
+[2025-12-02T05:32:00.114Z] [INFO] [CMD-MENU] Menu command triggered by fanra.
+[2025-12-02T05:32:01.179Z] [INFO] [MENU] Forwarded-style menu sent to fanra
+[2025-12-02T05:32:01.782Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:32:06.040Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:32:06.042Z] [DEBUG] [BADWORDS] Check: "Thanks" -> Normalized: "thanks" | Profane: false
+[2025-12-02T05:32:06.043Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:32:06.045Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:32:08.044Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:32:13.939Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:32:13.941Z] [DEBUG] [BADWORDS] Check: "Oke sama dama" -> Normalized: "oke sama dama" | Profane: false
+[2025-12-02T05:32:13.943Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:32:13.944Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:32:15.948Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:32:20.348Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:32:20.351Z] [DEBUG] [BADWORDS] Check: "Tp yg di" -> Normalized: "tp yg di" | Profane: false
+[2025-12-02T05:32:20.353Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:32:20.355Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:32:22.364Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:32:24.804Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:32:24.806Z] [DEBUG] [BADWORDS] Check: "Welcome" -> Normalized: "welcome" | Profane: false
+[2025-12-02T05:32:24.808Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:32:24.809Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:32:26.813Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:33:25.548Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:33:25.550Z] [DEBUG] [BADWORDS] Check: "aku mauu" -> Normalized: "aku mauu" | Profane: false
+[2025-12-02T05:33:25.551Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:33:25.553Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:33:25.559Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:33:27.553Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:33:31.579Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:33:31.581Z] [DEBUG] [BADWORDS] Check: ".myid" -> Normalized: "myid" | Profane: false
+[2025-12-02T05:33:31.583Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:33:31.584Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:33:31.588Z] [INFO] [CMD] myid | fanra | OWNER
+[2025-12-02T05:33:33.580Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:36:26.017Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T05:36:26.019Z] [INFO] [PLUGIN] ♻ Reloaded: token_earner
+[2025-12-02T05:36:26.833Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:36:28.081Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:36:28.111Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:36:28.114Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:36:28.360Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:36:28.368Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:36:28.371Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:36:28.378Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:36:28.382Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:36:28.843Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:36:28.849Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:36:28.852Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:36:28.856Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:36:28.859Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:36:28.864Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:36:28.868Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:36:28.871Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:36:28.874Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:36:29.264Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:36:29.268Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T05:36:29.272Z] [INFO] [PLUGIN] Loaded: welcome v3.6-TOKEN-LINKED
+[2025-12-02T05:36:29.275Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:36:29.280Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:36:31.766Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:39:29.576Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T05:39:29.578Z] [INFO] [PLUGIN] ♻ Reloaded: welcome
+[2025-12-02T05:39:30.523Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:39:31.671Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:39:31.697Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:39:31.704Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:39:31.927Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:39:31.935Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:39:31.939Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:39:31.943Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:39:31.946Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:39:32.358Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:39:32.364Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:39:32.368Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:39:32.372Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:39:32.375Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:39:32.381Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:39:32.384Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:39:32.387Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:39:32.391Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:39:32.785Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:39:32.789Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T05:39:32.793Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T05:39:32.796Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:39:32.797Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:39:34.931Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:40:19.039Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T05:40:19.041Z] [INFO] [PLUGIN] ♻ Reloaded: token_earner
+[2025-12-02T05:40:19.824Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:40:20.771Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:40:20.790Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:40:20.792Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:40:20.953Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:40:20.959Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:40:20.961Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:40:20.965Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:40:20.968Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:40:21.282Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:40:21.287Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:40:21.290Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:40:21.293Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:40:21.295Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:40:21.298Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:40:21.301Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:40:21.305Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:40:21.307Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:40:21.568Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:40:21.571Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T05:40:21.574Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T05:40:21.577Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:40:21.578Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:40:23.831Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:40:49.511Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:40:49.528Z] [DEBUG] [BADWORDS] Check: "Bot kamu jomblo ya?" -> Normalized: "bot kamu jomblo ya" | Profane: false
+[2025-12-02T05:40:51.516Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:40:52.213Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:40:52.215Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:41:18.346Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:41:18.360Z] [DEBUG] [BADWORDS] Check: "1 tambah seribu jika ikan makan gimana bot??" -> Normalized: "i tambah seribu jika ikan makan gimana bot" | Profane: false
+[2025-12-02T05:41:20.101Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:41:20.103Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:41:20.351Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:41:36.872Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:41:36.873Z] [DEBUG] [BADWORDS] Check: "Ahh kamu kurang gau terlalu formal bot" -> Normalized: "ahh kamu kurang gau terlalu formal bot" | Profane: false
+[2025-12-02T05:41:38.616Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:41:38.617Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:41:38.884Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:42:00.657Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:42:00.659Z] [DEBUG] [BADWORDS] Check: ".myid" -> Normalized: "myid" | Profane: false
+[2025-12-02T05:42:00.660Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:42:00.661Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:42:00.663Z] [INFO] [CMD] myid | fanra | OWNER
+[2025-12-02T05:42:02.675Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:42:12.752Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:42:12.754Z] [DEBUG] [BADWORDS] Check: "Aku tauu kokk" -> Normalized: "aku tauu kokk" | Profane: false
+[2025-12-02T05:42:12.757Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:42:12.759Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:42:12.765Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:42:14.759Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:42:18.310Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:42:18.312Z] [DEBUG] [BADWORDS] Check: ".myid" -> Normalized: "myid" | Profane: false
+[2025-12-02T05:42:18.313Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:42:18.314Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:42:18.315Z] [INFO] [CMD] myid | fanra | OWNER
+[2025-12-02T05:42:20.327Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:42:35.377Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:42:35.379Z] [DEBUG] [BADWORDS] Check: "Cek profilku dong bot" -> Normalized: "cek profilku dong bot" | Profane: false
+[2025-12-02T05:42:37.068Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:42:37.069Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:42:37.381Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:42:49.408Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:42:49.410Z] [DEBUG] [BADWORDS] Check: "Saya introvert bot gimana nihh" -> Normalized: "saya introvert bot gimana nihh" | Profane: false
+[2025-12-02T05:42:51.411Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:42:52.080Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:42:52.082Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:43:15.406Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:43:15.408Z] [DEBUG] [BADWORDS] Check: "I'm an introvert, what should I do?" -> Normalized: "im an introvert what should i do" | Profane: false
+[2025-12-02T05:43:15.410Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:43:15.412Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:43:17.419Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:43:32.053Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:43:32.055Z] [DEBUG] [BADWORDS] Check: "I'm an introvert, what should I do bot?" -> Normalized: "im an introvert what should i do bot" | Profane: false
+[2025-12-02T05:43:33.611Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:43:33.612Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:43:33.616Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:43:34.068Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:49:14.417Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:49:14.425Z] [DEBUG] [BADWORDS] Check: ".ai" -> Normalized: "ai" | Profane: false
+[2025-12-02T05:49:14.427Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:49:14.429Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:49:14.432Z] [INFO] [CMD] ai | fanra | OWNER
+[2025-12-02T05:49:16.431Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:49:31.134Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:49:33.138Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:49:34.290Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:49:34.292Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T05:49:34.294Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:49:35.126Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:49:35.136Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:49:35.150Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T05:49:35.166Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:49:37.112Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:49:37.113Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:49:37.115Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T05:49:37.116Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:49:39.126Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:49:40.373Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:49:42.397Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:49:42.544Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:49:42.545Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T05:49:42.546Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:49:43.863Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:49:43.864Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:49:43.866Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T05:49:43.867Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:49:45.873Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:50:09.409Z] [WARN] [PLUGIN] Added file daily.js but not a valid plugin.
+[2025-12-02T05:50:10.918Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:50:12.902Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:50:12.927Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:50:12.929Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:50:13.209Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:50:13.217Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:50:13.221Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:50:13.225Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:50:13.229Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:50:13.708Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:50:13.714Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:50:13.718Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:50:13.722Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:50:13.726Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:50:13.729Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:50:13.733Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:50:13.737Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:50:13.741Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:50:14.163Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:50:14.167Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T05:50:14.171Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T05:50:14.174Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:50:14.175Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:50:19.230Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T05:50:19.232Z] [INFO] [PLUGIN] ♻ Reloaded: daily_reward
+[2025-12-02T05:50:20.058Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:50:21.166Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:50:21.194Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:50:21.197Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:50:21.390Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:50:21.397Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:50:21.401Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:50:21.404Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:50:21.408Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:50:21.841Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:50:21.846Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T05:50:21.851Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:50:21.854Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:50:21.858Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:50:21.861Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:50:21.865Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:50:21.869Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:50:21.872Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:50:21.876Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:50:22.343Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:50:22.346Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T05:50:22.351Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T05:50:22.353Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:50:22.355Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:50:31.759Z] [WARN] [PLUGIN] Added file help.js but not a valid plugin.
+[2025-12-02T05:50:32.584Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:50:33.570Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:50:33.588Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:50:33.590Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:50:33.761Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:50:33.770Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:50:33.775Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:50:33.778Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:50:33.781Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:50:34.121Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:50:34.128Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T05:50:34.132Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:50:34.135Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:50:34.141Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:50:34.144Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:50:34.148Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:50:34.153Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:50:34.156Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:50:34.161Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:50:34.515Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:50:34.519Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T05:50:34.522Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T05:50:34.525Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:50:34.526Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:50:34.905Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T05:50:34.907Z] [INFO] [PLUGIN] ♻ Reloaded: help_command
+[2025-12-02T05:50:35.585Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:50:36.759Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:50:36.787Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:50:36.789Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:50:37.073Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:50:37.080Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:50:37.084Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:50:37.088Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:50:37.092Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:50:37.379Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:50:37.383Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T05:50:37.388Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:50:37.391Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:50:37.394Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T05:50:37.397Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:50:37.400Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:50:37.403Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:50:37.406Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:50:37.409Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:50:37.412Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:50:37.726Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:50:37.728Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T05:50:37.732Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T05:50:37.735Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:50:37.737Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:50:45.494Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:50:51.462Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:50:53.469Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:50:55.141Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:50:55.143Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T05:50:55.146Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:50:55.148Z] [INFO] [CMD] ai | fanra | OWNER
+[2025-12-02T05:50:56.598Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:50:56.600Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:50:56.602Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T05:50:56.604Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:50:58.604Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:51:04.446Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:51:06.452Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:51:10.775Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:51:10.776Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T05:51:10.778Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:51:10.779Z] [INFO] [CMD] help | fanra | OWNER
+[2025-12-02T05:51:10.781Z] [INFO] [CMD-MENU] Menu command triggered by fanra.
+[2025-12-02T05:51:12.783Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:51:12.784Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:51:12.786Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T05:51:12.787Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:51:14.178Z] [INFO] [MENU] Forwarded-style menu sent to fanra
+[2025-12-02T05:51:14.789Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:51:40.691Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:51:40.696Z] [INFO] [PLUGIN] ♻ Reloaded: menu
+[2025-12-02T05:51:41.377Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:51:42.354Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:51:42.374Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:51:42.377Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:51:42.532Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:51:42.539Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:51:42.542Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:51:42.545Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:51:42.547Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:51:42.887Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:51:42.892Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T05:51:42.896Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:51:42.900Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:51:42.904Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T05:51:42.908Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:51:42.912Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:51:42.916Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:51:42.921Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:51:42.924Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:51:42.928Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:51:43.199Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:51:43.203Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T05:51:43.206Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T05:51:43.208Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:51:43.209Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:51:45.473Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:55:18.525Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T05:55:18.527Z] [INFO] [PLUGIN] ♻ Reloaded: help_command
+[2025-12-02T05:55:19.341Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:55:20.330Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:55:20.349Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:55:20.351Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:55:20.531Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:55:20.537Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:55:20.540Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:55:20.543Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:55:20.546Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:55:20.961Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:55:20.965Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T05:55:20.970Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:55:20.974Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:55:20.977Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T05:55:20.981Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:55:20.984Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:55:20.989Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:55:20.993Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:55:20.996Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:55:20.999Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:55:21.322Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:55:21.326Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T05:55:21.330Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T05:55:21.333Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:55:21.334Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:55:23.528Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:58:29.438Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:58:29.450Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:58:29.452Z] [INFO] [PLUGIN] ♻ Reloaded: ai_controller
+[2025-12-02T05:58:30.170Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T05:58:31.204Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T05:58:31.220Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T05:58:31.222Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T05:58:31.455Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T05:58:31.465Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T05:58:31.471Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T05:58:31.477Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T05:58:31.481Z] [INFO] [PLUGIN] Loaded: antispam v2.2.0-FINAL
+[2025-12-02T05:58:31.971Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T05:58:31.977Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T05:58:31.981Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T05:58:31.984Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T05:58:31.987Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T05:58:31.990Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T05:58:31.995Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T05:58:31.998Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T05:58:32.002Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T05:58:32.005Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T05:58:32.010Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T05:58:32.354Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T05:58:32.358Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T05:58:32.362Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T05:58:32.364Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T05:58:32.366Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T05:58:34.101Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T05:58:47.572Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:58:47.584Z] [DEBUG] [BADWORDS] Check: ".daily" -> Normalized: "daily" | Profane: false
+[2025-12-02T05:58:47.587Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:58:47.589Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:58:47.592Z] [INFO] [CMD] daily | fanra | OWNER
+[2025-12-02T05:58:47.597Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:58:49.580Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T05:59:19.343Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:59:19.354Z] [DEBUG] [BADWORDS] Check: "P" -> Normalized: "p" | Profane: false
+[2025-12-02T05:59:19.356Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:59:19.358Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:59:20.109Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:59:20.111Z] [DEBUG] [BADWORDS] Check: "P" -> Normalized: "p" | Profane: false
+[2025-12-02T05:59:20.112Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:59:20.113Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:59:21.081Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:59:21.083Z] [DEBUG] [BADWORDS] Check: "P" -> Normalized: "p" | Profane: false
+[2025-12-02T05:59:21.085Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:59:21.086Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:59:22.013Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:59:22.014Z] [DEBUG] [BADWORDS] Check: "P" -> Normalized: "p" | Profane: false
+[2025-12-02T05:59:22.016Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:59:22.017Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:59:22.810Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T05:59:22.812Z] [DEBUG] [BADWORDS] Check: "P" -> Normalized: "p" | Profane: false
+[2025-12-02T05:59:22.814Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T05:59:22.815Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T05:59:22.817Z] [WARN] [SPAM] ⚠️ SPAM WARNING (5x) to fanra - Batch Deleting...
+[2025-12-02T05:59:24.823Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:00:25.075Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:00:25.077Z] [DEBUG] [BADWORDS] Check: "J" -> Normalized: "j" | Profane: false
+[2025-12-02T06:00:25.079Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:00:25.080Z] [DEBUG] [ANTISPAM] Modul Anti-Spam terpicu.
+[2025-12-02T06:00:25.082Z] [INFO] [SPAM] User fanra spam count reset due to inactivity.
+[2025-12-02T06:00:27.091Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:01:38.892Z] [INFO] [PLUGIN] Loaded: antispam v3.0-PRO-ENGLISH
+[2025-12-02T06:01:38.895Z] [INFO] [PLUGIN] ♻ Reloaded: antispam
+[2025-12-02T06:01:39.788Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T06:01:40.936Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T06:01:40.953Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T06:01:40.956Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T06:01:41.150Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T06:01:41.158Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T06:01:41.161Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T06:01:41.165Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T06:01:41.167Z] [INFO] [PLUGIN] Loaded: antispam v3.0-PRO-ENGLISH
+[2025-12-02T06:01:41.579Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T06:01:41.584Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T06:01:41.588Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T06:01:41.591Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T06:01:41.594Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T06:01:41.598Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T06:01:41.601Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T06:01:41.605Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T06:01:41.608Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T06:01:41.613Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T06:01:41.616Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T06:01:41.957Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T06:01:41.960Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T06:01:41.964Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T06:01:41.966Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T06:01:41.968Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T06:01:43.980Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T06:02:37.835Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:02:37.851Z] [DEBUG] [BADWORDS] Check: "https://chat.whatsapp.com/IkJ1i2lSsiz3tBNAAR9K32?mode=ems_copy_t" -> Normalized: "httpschatwhatsappcomikjiilssizetbnaarkemodeemscopyt" | Profane: false
+[2025-12-02T06:02:37.853Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:02:37.855Z] [WARN] [ANTILINK] Link terdeteksi dari fanra | Pelanggaran #1. Pesan: "https://chat.whatsapp.com/ikj1i2lssiz3tbnaar9k32?m..."
+[2025-12-02T06:02:38.767Z] [INFO] [ANTILINK] Pesan dihapus.
+[2025-12-02T06:02:38.769Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:02:39.839Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:02:49.163Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:02:49.179Z] [DEBUG] [BADWORDS] Check: "L" -> Normalized: "l" | Profane: false
+[2025-12-02T06:02:49.182Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:02:49.185Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:02:49.879Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:02:49.881Z] [DEBUG] [BADWORDS] Check: "L" -> Normalized: "l" | Profane: false
+[2025-12-02T06:02:49.883Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:02:49.884Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:02:50.603Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:02:50.606Z] [DEBUG] [BADWORDS] Check: "L" -> Normalized: "l" | Profane: false
+[2025-12-02T06:02:50.607Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:02:50.609Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:02:51.304Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:02:51.307Z] [DEBUG] [BADWORDS] Check: "L" -> Normalized: "l" | Profane: false
+[2025-12-02T06:02:51.308Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:02:51.309Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:02:52.023Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:02:52.024Z] [DEBUG] [BADWORDS] Check: "L" -> Normalized: "l" | Profane: false
+[2025-12-02T06:02:52.026Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:02:52.027Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:02:52.028Z] [WARN] [SPAM] ⚠️ SPAM WARNING (5x) to fanra - Batch Deleting...
+[2025-12-02T06:02:54.031Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:03:33.257Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:03:33.262Z] [DEBUG] [BADWORDS] Check: "Okee" -> Normalized: "okee" | Profane: false
+[2025-12-02T06:03:33.263Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:03:33.265Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:03:33.266Z] [INFO] [SPAM] User fanra spam count reset.
+[2025-12-02T06:03:35.269Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:03:49.263Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:03:49.265Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:03:49.266Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:03:49.267Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:03:49.269Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:03:49.825Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:03:49.830Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:03:49.833Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:03:49.836Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:03:49.843Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:03:50.253Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:03:50.255Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:03:50.257Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:03:50.266Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:03:50.269Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:03:50.538Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:03:50.542Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:03:50.547Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:03:50.552Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:03:50.554Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:03:51.004Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:03:51.007Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:03:51.011Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:03:51.029Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:03:51.035Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:03:52.218Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:03:52.220Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:03:52.231Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:03:52.236Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:03:52.252Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:03:52.600Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:03:52.708Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:03:52.742Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:03:52.753Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:03:52.758Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:03:54.025Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:03:54.050Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:03:54.058Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:03:54.068Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:03:54.075Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:03:56.040Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:06:00.223Z] [INFO] [PLUGIN] Loaded: antispam v4.0-ADV-STICKER
+[2025-12-02T06:06:00.225Z] [INFO] [PLUGIN] ♻ Reloaded: antispam
+[2025-12-02T06:06:01.158Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T06:06:02.367Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T06:06:02.389Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T06:06:02.392Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T06:06:02.593Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T06:06:02.600Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T06:06:02.604Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T06:06:02.608Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T06:06:02.610Z] [INFO] [PLUGIN] Loaded: antispam v4.0-ADV-STICKER
+[2025-12-02T06:06:03.015Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T06:06:03.021Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T06:06:03.025Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T06:06:03.028Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T06:06:03.031Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T06:06:03.034Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T06:06:03.037Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T06:06:03.041Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T06:06:03.045Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T06:06:03.048Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T06:06:03.051Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T06:06:03.432Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T06:06:03.436Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T06:06:03.440Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T06:06:03.443Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T06:06:03.444Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T06:06:28.123Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T06:06:30.023Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:06:30.037Z] [DEBUG] [BADWORDS] Check: ".ping" -> Normalized: "ping" | Profane: false
+[2025-12-02T06:06:30.039Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:06:30.041Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:06:30.043Z] [INFO] [CMD] ping | fanra | OWNER
+[2025-12-02T06:06:30.045Z] [INFO] [CMD-PING] Ping command triggered by fanra.
+[2025-12-02T06:06:32.028Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:06:32.702Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:06:32.704Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:06:32.705Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:06:32.706Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:06:32.708Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:06:33.228Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:06:33.229Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:06:33.231Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:06:33.233Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:06:33.234Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:06:33.647Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:06:33.649Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:06:33.650Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:06:33.652Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:06:33.654Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:06:34.748Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:06:34.749Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:06:34.751Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:06:34.752Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:06:34.753Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:06:35.475Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:06:35.476Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:06:35.478Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:06:35.479Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:06:35.481Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:06:35.483Z] [WARN] [SPAM] ⚠️ SPAM COUNT REACHED (5x) for fanra - Batch Deleting...
+[2025-12-02T06:06:37.486Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:06:37.672Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:06:37.673Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:06:37.674Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:06:37.676Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:06:37.677Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:06:37.679Z] [WARN] [SPAM] ✅ User fanra stopped spamming after 5 messages. Cleared.
+[2025-12-02T06:06:39.680Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:09:46.488Z] [INFO] [PLUGIN] Loaded: antispam v4.1-FINALIZED-LOGIC
+[2025-12-02T06:09:46.491Z] [INFO] [PLUGIN] ♻ Reloaded: antispam
+[2025-12-02T06:09:47.352Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T06:09:48.404Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T06:09:48.420Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T06:09:48.422Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T06:09:48.664Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T06:09:48.675Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T06:09:48.681Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T06:09:48.686Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T06:09:48.689Z] [INFO] [PLUGIN] Loaded: antispam v4.1-FINALIZED-LOGIC
+[2025-12-02T06:09:49.076Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T06:09:49.081Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T06:09:49.084Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T06:09:49.088Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T06:09:49.091Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T06:09:49.094Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T06:09:49.096Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T06:09:49.099Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T06:09:49.103Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T06:09:49.106Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T06:09:49.109Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T06:09:49.518Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T06:09:49.522Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T06:09:49.525Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T06:09:49.528Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T06:09:49.529Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T06:09:53.538Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T06:10:10.037Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:10.039Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:10:10.045Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:10.047Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:10:10.050Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:12.044Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:10:13.909Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:13.912Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:10:13.914Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:13.916Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:10:13.918Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:14.387Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:14.399Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:10:14.412Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:14.420Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:10:14.423Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:14.970Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:14.971Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:10:14.973Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:14.974Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:10:14.975Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:15.311Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:15.313Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:10:15.315Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:15.317Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:10:15.319Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:15.734Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:15.736Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:10:15.738Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:15.739Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:10:15.741Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:16.177Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:16.181Z] [DEBUG] [BADWORDS] Check: "" -> Normalized: "" | Profane: false
+[2025-12-02T06:10:16.183Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:16.188Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:10:16.194Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:16.483Z] [INFO] [SPAM] Deleted incoming message (6x) from fanra
+[2025-12-02T06:10:16.546Z] [INFO] [SPAM] Deleted incoming message (6x) from fanra
+[2025-12-02T06:10:18.176Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:10:32.218Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:32.230Z] [DEBUG] [BADWORDS] Check: "Okr" -> Normalized: "okr" | Profane: false
+[2025-12-02T06:10:32.231Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:32.233Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:32.237Z] [WARN] [SPAM] ✅ User fanra stopped spamming after 6 messages. Cleared.
+[2025-12-02T06:10:34.231Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:10:44.502Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:44.514Z] [DEBUG] [BADWORDS] Check: "Oke" -> Normalized: "oke" | Profane: false
+[2025-12-02T06:10:44.518Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:44.521Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:45.532Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:45.534Z] [DEBUG] [BADWORDS] Check: "P" -> Normalized: "p" | Profane: false
+[2025-12-02T06:10:45.536Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:45.537Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:46.336Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:46.339Z] [DEBUG] [BADWORDS] Check: "P" -> Normalized: "p" | Profane: false
+[2025-12-02T06:10:46.340Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:46.342Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:47.302Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:47.304Z] [DEBUG] [BADWORDS] Check: "P" -> Normalized: "p" | Profane: false
+[2025-12-02T06:10:47.305Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:47.306Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:48.102Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:48.104Z] [DEBUG] [BADWORDS] Check: "P" -> Normalized: "p" | Profane: false
+[2025-12-02T06:10:48.105Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:48.106Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:49.081Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:49.082Z] [DEBUG] [BADWORDS] Check: "P" -> Normalized: "p" | Profane: false
+[2025-12-02T06:10:49.084Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:49.086Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:49.398Z] [INFO] [SPAM] Deleted incoming message (5x) from fanra
+[2025-12-02T06:10:50.889Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:10:50.891Z] [DEBUG] [BADWORDS] Check: "P" -> Normalized: "p" | Profane: false
+[2025-12-02T06:10:50.893Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:10:50.894Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:10:51.297Z] [INFO] [SPAM] Deleted incoming message (6x) from fanra
+[2025-12-02T06:10:52.893Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:11:01.375Z] [INFO] [PLUGIN] Loaded: antispam v4.0-ADV-STICKER
+[2025-12-02T06:11:01.376Z] [INFO] [PLUGIN] ♻ Reloaded: antispam
+[2025-12-02T06:11:02.116Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T06:11:03.158Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T06:11:03.174Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T06:11:03.178Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T06:11:03.424Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T06:11:03.434Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T06:11:03.445Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T06:11:03.462Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T06:11:03.468Z] [INFO] [PLUGIN] Loaded: antispam v4.0-ADV-STICKER
+[2025-12-02T06:11:03.859Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T06:11:03.864Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T06:11:03.869Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T06:11:03.872Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T06:11:03.876Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T06:11:03.880Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T06:11:03.883Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T06:11:03.888Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T06:11:03.891Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T06:11:03.894Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T06:11:03.897Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T06:11:04.214Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T06:11:04.217Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T06:11:04.220Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T06:11:04.223Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T06:11:04.224Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T06:11:06.436Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T06:11:08.855Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:11:08.867Z] [DEBUG] [BADWORDS] Check: "Y" -> Normalized: "y" | Profane: false
+[2025-12-02T06:11:08.869Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:11:08.871Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:11:10.859Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:11:21.894Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:11:21.905Z] [DEBUG] [BADWORDS] Check: ".myid" -> Normalized: "myid" | Profane: false
+[2025-12-02T06:11:21.906Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:11:21.908Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:11:21.910Z] [INFO] [CMD] myid | fanra | OWNER
+[2025-12-02T06:11:23.905Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:11:40.756Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:11:40.767Z] [DEBUG] [BADWORDS] Check: "https://chat.whatsapp.com/IkJ1i2lSsiz3tBNAAR9K32?mode=ems_copy_t" -> Normalized: "httpschatwhatsappcomikjiilssizetbnaarkemodeemscopyt" | Profane: false
+[2025-12-02T06:11:40.768Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:11:40.771Z] [WARN] [ANTILINK] Link terdeteksi dari fanra | Pelanggaran #2. Pesan: "https://chat.whatsapp.com/ikj1i2lssiz3tbnaar9k32?m..."
+[2025-12-02T06:11:41.228Z] [INFO] [ANTILINK] Pesan dihapus.
+[2025-12-02T06:11:41.229Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:11:42.762Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:11:44.339Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:11:44.341Z] [DEBUG] [BADWORDS] Check: ".myid" -> Normalized: "myid" | Profane: false
+[2025-12-02T06:11:44.343Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:11:44.345Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:11:44.346Z] [INFO] [CMD] myid | fanra | OWNER
+[2025-12-02T06:11:46.349Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:11:56.951Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:11:56.953Z] [DEBUG] [BADWORDS] Check: ".daily" -> Normalized: "daily" | Profane: false
+[2025-12-02T06:11:56.955Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:11:56.957Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:11:56.958Z] [INFO] [CMD] daily | fanra | OWNER
+[2025-12-02T06:11:58.964Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:12:02.499Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:12:02.501Z] [DEBUG] [BADWORDS] Check: ".help" -> Normalized: "help" | Profane: false
+[2025-12-02T06:12:02.502Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:12:02.503Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:12:02.507Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:12:02.957Z] [INFO] [CMD] help | fanra | OWNER
+[2025-12-02T06:12:04.509Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:12:34.515Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T06:12:34.519Z] [INFO] [PLUGIN] ♻ Reloaded: help_command
+[2025-12-02T06:12:35.306Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T06:12:36.303Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T06:12:36.318Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T06:12:36.320Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T06:12:36.498Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T06:12:36.506Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T06:12:36.509Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T06:12:36.512Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T06:12:36.515Z] [INFO] [PLUGIN] Loaded: antispam v4.0-ADV-STICKER
+[2025-12-02T06:12:36.870Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T06:12:36.874Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T06:12:36.877Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T06:12:36.880Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T06:12:36.883Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T06:12:36.886Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T06:12:36.889Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T06:12:36.893Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T06:12:36.896Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T06:12:36.898Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T06:12:36.903Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T06:12:37.209Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T06:12:37.212Z] [INFO] [PLUGIN] Loaded: token_earner v2.0-ADD-REWARD
+[2025-12-02T06:12:37.216Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T06:12:37.218Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T06:12:37.220Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T06:12:39.432Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T06:12:55.412Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:12:55.423Z] [DEBUG] [BADWORDS] Check: ".help" -> Normalized: "help" | Profane: false
+[2025-12-02T06:12:55.425Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:12:55.428Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:12:55.432Z] [INFO] [CMD] help | fanra | OWNER
+[2025-12-02T06:12:57.427Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:13:38.863Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:13:38.875Z] [DEBUG] [BADWORDS] Check: "Aknddi" -> Normalized: "aknddi" | Profane: false
+[2025-12-02T06:13:38.876Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:13:38.878Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:13:40.880Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:13:42.629Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:13:42.631Z] [DEBUG] [BADWORDS] Check: "Ksjdis" -> Normalized: "ksjdis" | Profane: false
+[2025-12-02T06:13:42.632Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:13:42.634Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:13:44.636Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:13:46.081Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:13:46.083Z] [DEBUG] [BADWORDS] Check: "Lfnbs" -> Normalized: "lfnbs" | Profane: false
+[2025-12-02T06:13:46.084Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:13:46.086Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:13:48.096Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:13:49.221Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:13:49.223Z] [DEBUG] [BADWORDS] Check: "Ucospej" -> Normalized: "ucospej" | Profane: false
+[2025-12-02T06:13:49.224Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:13:49.225Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:13:49.231Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:13:51.229Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:13:51.861Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:13:51.862Z] [DEBUG] [BADWORDS] Check: "Htbrksp" -> Normalized: "htbrksp" | Profane: false
+[2025-12-02T06:13:51.864Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:13:51.865Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:13:53.879Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:13:54.154Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:13:54.156Z] [DEBUG] [BADWORDS] Check: "Jfhebbr" -> Normalized: "jfhebbr" | Profane: false
+[2025-12-02T06:13:54.157Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:13:54.158Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:13:55.434Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:13:55.436Z] [DEBUG] [BADWORDS] Check: "Oskebbg" -> Normalized: "oskebbg" | Profane: false
+[2025-12-02T06:13:55.437Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:13:55.438Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:13:56.749Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:13:56.751Z] [DEBUG] [BADWORDS] Check: "Jxhisoe" -> Normalized: "jxhisoe" | Profane: false
+[2025-12-02T06:13:56.753Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:13:56.754Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:13:58.011Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:13:58.013Z] [DEBUG] [BADWORDS] Check: "Ifjhr" -> Normalized: "ifjhr" | Profane: false
+[2025-12-02T06:13:58.014Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:13:58.015Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:13:58.019Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:14:00.022Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:16:19.164Z] [INFO] [PLUGIN] Loaded: token_earner v3.0-COOLDOWN-FIX
+[2025-12-02T06:16:19.167Z] [INFO] [PLUGIN] ♻ Reloaded: token_earner
+[2025-12-02T06:16:20.030Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T06:16:21.081Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T06:16:21.096Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T06:16:21.098Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T06:16:21.326Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T06:16:21.337Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T06:16:21.343Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T06:16:21.347Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T06:16:21.354Z] [INFO] [PLUGIN] Loaded: antispam v4.0-ADV-STICKER
+[2025-12-02T06:16:21.775Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T06:16:21.780Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T06:16:21.783Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T06:16:21.786Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T06:16:21.790Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T06:16:21.794Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T06:16:21.798Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T06:16:21.803Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T06:16:21.806Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T06:16:21.810Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T06:16:21.814Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T06:16:22.126Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T06:16:22.129Z] [INFO] [PLUGIN] Loaded: token_earner v3.0-COOLDOWN-FIX
+[2025-12-02T06:16:22.133Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T06:16:22.135Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T06:16:22.136Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T06:16:26.036Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T06:17:26.807Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:17:26.818Z] [DEBUG] [BADWORDS] Check: "P" -> Normalized: "p" | Profane: false
+[2025-12-02T06:17:26.821Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:17:26.825Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:17:28.821Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:18:18.370Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:18:18.384Z] [DEBUG] [BADWORDS] Check: ".kick @219696804675657" -> Normalized: "kick aioatsst" | Profane: false
+[2025-12-02T06:18:18.385Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:18:18.386Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:18:18.394Z] [INFO] [CMD] kick | fanra | OWNER
+[2025-12-02T06:18:20.372Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:18:30.651Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:18:30.653Z] [DEBUG] [BADWORDS] Check: "`Your Profile Summary` 
+*Name           :* fanra
+*Role              :* member
+*Tokens         :* 10
+*Interactions :* 6
+
+`Anti-Link Info:`
+*Violations Today :*  *0*
+*Violation Date     :*  *-*" -> Normalized: "your profile summary 
+name            fanra
+role               member
+tokens          io
+interactions  
+
+antilink info
+violations today   o
+violation date" | Profane: false
+[2025-12-02T06:18:32.114Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:18:32.497Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:18:32.501Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:18:32.664Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:18:35.175Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:18:35.177Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:18:35.178Z] [INFO] [ANTILINK] Diabaikan: Bukan grup atau tidak ada teks pesan.
+[2025-12-02T06:18:35.179Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:18:35.679Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:18:35.681Z] [DEBUG] [BADWORDS] Check: ".myid" -> Normalized: "myid" | Profane: false
+[2025-12-02T06:18:35.682Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:18:35.684Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:18:35.685Z] [INFO] [CMD] myid | User | USER
+[2025-12-02T06:18:37.192Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:18:57.792Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:18:57.794Z] [DEBUG] [BADWORDS] Check: "Myid" -> Normalized: "myid" | Profane: false
+[2025-12-02T06:18:57.796Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:18:57.797Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:18:59.805Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:19:18.379Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T06:19:18.392Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T06:19:18.395Z] [INFO] [PLUGIN] ♻ Reloaded: ai_controller
+[2025-12-02T06:19:19.184Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T06:19:20.171Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T06:19:20.186Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T06:19:20.188Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T06:19:20.370Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T06:19:20.378Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T06:19:20.381Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T06:19:20.385Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T06:19:20.388Z] [INFO] [PLUGIN] Loaded: antispam v4.0-ADV-STICKER
+[2025-12-02T06:19:20.767Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T06:19:20.772Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T06:19:20.775Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T06:19:20.780Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T06:19:20.783Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T06:19:20.786Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T06:19:20.789Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T06:19:20.792Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T06:19:20.796Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T06:19:20.799Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T06:19:20.802Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T06:19:21.138Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T06:19:21.142Z] [INFO] [PLUGIN] Loaded: token_earner v3.0-COOLDOWN-FIX
+[2025-12-02T06:19:21.146Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T06:19:21.149Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T06:19:21.150Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T06:19:23.072Z] [INFO] [CONN] WhatsApp Connected! 🚀
+[2025-12-02T06:19:34.333Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:19:34.350Z] [DEBUG] [BADWORDS] Check: "welcome @93845656195169" -> Normalized: "welcome aeassisi" | Profane: false
+[2025-12-02T06:19:34.353Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:19:34.355Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:19:36.349Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:19:46.129Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:19:46.139Z] [DEBUG] [BADWORDS] Check: ".myid" -> Normalized: "myid" | Profane: false
+[2025-12-02T06:19:46.141Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:19:46.142Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:19:46.147Z] [INFO] [CMD] myid | fanra | OWNER
+[2025-12-02T06:19:48.142Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:20:20.223Z] [INFO] [BADWORDS] Check triggered.
+[2025-12-02T06:20:20.239Z] [DEBUG] [BADWORDS] Check: ".backup" -> Normalized: "backup" | Profane: false
+[2025-12-02T06:20:20.242Z] [DEBUG] [ANTILINK] Modul Anti-Link terpicu.
+[2025-12-02T06:20:20.245Z] [DEBUG] [ANTISPAM] Anti-Spam module triggered.
+[2025-12-02T06:20:20.248Z] [INFO] [CMD] backup | fanra | OWNER
+[2025-12-02T06:20:22.232Z] [DEBUG] [DB] Saved users & settings to disk.
+[2025-12-02T06:24:28.115Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T06:24:28.119Z] [INFO] [PLUGIN] ♻ Reloaded: backup
+[2025-12-02T06:24:29.031Z] [DEBUG] [CORE] Config watcher started.
+[2025-12-02T06:24:30.224Z] [INFO] [CORE] Starting Engine v5.5 (Original + AI Fix)...
+[2025-12-02T06:24:30.255Z] [INFO] [DB] Users Loaded: 72
+[2025-12-02T06:24:30.259Z] [INFO] [DB] Settings Loaded.
+[2025-12-02T06:24:30.537Z] [INFO] [PLUGIN] Loaded: ai_controller v6.3-OWNER-FIX
+[2025-12-02T06:24:30.545Z] [INFO] [AI] ✅ GEMINI CONNECTED. Status: ON
+[2025-12-02T06:24:30.548Z] [INFO] [PLUGIN] Loaded: antilink v6.0.3-DIAG
+[2025-12-02T06:24:30.552Z] [INFO] [PLUGIN] Loaded: badwords_standalone v9.2-EN-SATIRE
+[2025-12-02T06:24:30.555Z] [INFO] [PLUGIN] Loaded: antispam v4.0-ADV-STICKER
+[2025-12-02T06:24:30.989Z] [INFO] [PLUGIN] Loaded: backup v1.0.0
+[2025-12-02T06:24:30.995Z] [INFO] [PLUGIN] Loaded: daily_reward v2.0-GACHA
+[2025-12-02T06:24:30.999Z] [INFO] [PLUGIN] Loaded: downloader v1.0.0
+[2025-12-02T06:24:31.002Z] [INFO] [PLUGIN] Loaded: group-admin v1.0.0
+[2025-12-02T06:24:31.005Z] [INFO] [PLUGIN] Loaded: help_command v2.0-COMPLETE
+[2025-12-02T06:24:31.008Z] [INFO] [PLUGIN] Loaded: menu v1.0.0
+[2025-12-02T06:24:31.012Z] [INFO] [PLUGIN] Loaded: ownerkey v1.0.0
+[2025-12-02T06:24:31.015Z] [INFO] [PLUGIN] Loaded: ping v1.0.0
+[2025-12-02T06:24:31.019Z] [INFO] [PLUGIN] Loaded: runtime v1.0.0
+[2025-12-02T06:24:31.022Z] [INFO] [PLUGIN] Loaded: self-identify v1.0.0
+[2025-12-02T06:24:31.025Z] [INFO] [PLUGIN] Loaded: settings v1.0.0
+[2025-12-02T06:24:31.421Z] [INFO] [PLUGIN] Loaded: sticker v1.0.0
+[2025-12-02T06:24:31.425Z] [INFO] [PLUGIN] Loaded: token_earner v3.0-COOLDOWN-FIX
+[2025-12-02T06:24:31.429Z] [INFO] [PLUGIN] Loaded: welcome v4.0-FULL-REWARDS
+[2025-12-02T06:24:31.432Z] [INFO] [CORE] Plugin Watcher Activated ✔
+[2025-12-02T06:24:31.433Z] [INFO] [CORE] Engine Ready!
+[2025-12-02T06:24:35.201Z] [INFO] [CONN] WhatsApp Connected! 🚀

@@ -1,6 +1,6 @@
 export default {
   name: "menu",
-  cmd: ["menu", "help", "list", "?"],
+  cmd: ["menu"],
   type: "command",
   priority: 1,
 

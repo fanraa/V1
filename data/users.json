@@ -93,15 +93,16 @@
     "id": "6790494347481",
     "phoneNumber": "6790494347481",
     "name": "fanra",
-    "interactions": 390,
+    "interactions": 566,
     "createdAt": "2025-11-30T13:02:39.301Z",
-    "lastSeen": "2025-12-01T14:25:59.152Z",
+    "lastSeen": "2025-12-02T06:20:20.222Z",
     "role": "owner",
-    "tokens": 10,
+    "tokens": 25,
     "antilink": {
-      "date": "2025-12-01",
-      "count": 8
-    }
+      "date": "2025-12-02",
+      "count": 2
+    },
+    "lastDaily": "2025-12-02"
   },
   "151492656890087": {
     "id": "151492656890087",
@@ -117,11 +118,11 @@
     "id": "93845656195169",
     "phoneNumber": "93845656195169",
     "name": "Fanrabot",
-    "interactions": 92,
+    "interactions": 93,
     "createdAt": "2025-11-30T13:03:22.629Z",
-    "lastSeen": "2025-12-01T11:08:39.624Z",
+    "lastSeen": "2025-12-02T06:18:30.650Z",
     "role": "bot",
-    "tokens": 10
+    "tokens": 9
   },
   "137666872004636": {
     "id": "137666872004636",
@@ -187,9 +188,9 @@
     "id": "6285788918217",
     "phoneNumber": "6285788918217",
     "name": "fanra",
-    "interactions": 72,
+    "interactions": 82,
     "createdAt": "2025-11-30T13:19:35.969Z",
-    "lastSeen": "2025-12-01T14:38:23.544Z",
+    "lastSeen": "2025-12-02T05:51:12.782Z",
     "role": "owner",
     "tokens": 10
   },
@@ -709,5 +710,16 @@
     "premium": false,
     "premiumUntil": null,
     "lastSeen": "2025-12-01T14:22:18.898Z"
+  },
+  "62881011264063": {
+    "id": "62881011264063",
+    "name": "User",
+    "role": "owner",
+    "tokens": 10,
+    "interactions": 12,
+    "createdAt": "2025-12-02T04:37:19.712Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-02T06:18:35.175Z"
   }
 }
