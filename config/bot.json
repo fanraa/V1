@@ -1,0 +1,17 @@
+{
+  "owners": [
+    "6790494347481"
+  ],
+  "premium": [
+    "6285788918217"
+  ],
+  "botName": "FanraBot",
+  "version": "1.2.0-STABLE",
+  "prefix": [
+    ".",
+    "!",
+    "/",
+    "#"
+  ],
+  "aiResponseDelay": 1000
+}

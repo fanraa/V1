@@ -1,0 +1,713 @@
+{
+  "6283172993747": {
+    "id": "6283172993747",
+    "phoneNumber": "6283172993747",
+    "name": "User",
+    "interactions": 39,
+    "createdAt": "2025-11-30T13:01:43.290Z",
+    "lastSeen": "2025-12-01T14:38:15.694Z",
+    "role": "bot",
+    "tokens": 10
+  },
+  "256594885476360": {
+    "id": "256594885476360",
+    "phoneNumber": "256594885476360",
+    "name": "L",
+    "interactions": 94,
+    "createdAt": "2025-11-30T13:01:47.535Z",
+    "lastSeen": "2025-12-01T12:51:33.712Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "19074033676492": {
+    "id": "19074033676492",
+    "phoneNumber": "19074033676492",
+    "name": "S A",
+    "interactions": 8,
+    "createdAt": "2025-11-30T13:01:48.319Z",
+    "lastSeen": "2025-11-30T13:04:12.516Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "98651707846687": {
+    "id": "98651707846687",
+    "phoneNumber": "98651707846687",
+    "name": "⋆˚𝜗𝜚˚⋆𝐶𝑟𝑦 𝐵𝑎𝑏𝑦⋆.",
+    "interactions": 21,
+    "createdAt": "2025-11-30T13:01:55.083Z",
+    "lastSeen": "2025-11-30T13:19:29.442Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "180866022174958": {
+    "id": "180866022174958",
+    "phoneNumber": "180866022174958",
+    "name": "MaLuthuli✨️",
+    "interactions": 44,
+    "createdAt": "2025-11-30T13:02:02.460Z",
+    "lastSeen": "2025-12-01T11:23:21.443Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "263930622525541": {
+    "id": "263930622525541",
+    "phoneNumber": "263930622525541",
+    "name": "🫣",
+    "interactions": 35,
+    "createdAt": "2025-11-30T13:02:02.486Z",
+    "lastSeen": "2025-12-01T11:44:52.149Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "46424318300381": {
+    "id": "46424318300381",
+    "phoneNumber": "46424318300381",
+    "name": "😊",
+    "interactions": 66,
+    "createdAt": "2025-11-30T13:02:09.067Z",
+    "lastSeen": "2025-12-01T13:07:50.171Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "88790244827277": {
+    "id": "88790244827277",
+    "phoneNumber": "88790244827277",
+    "name": "wylonalona",
+    "interactions": 6,
+    "createdAt": "2025-11-30T13:02:26.304Z",
+    "lastSeen": "2025-12-01T13:04:32.789Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "151505441148965": {
+    "id": "151505441148965",
+    "phoneNumber": "151505441148965",
+    "name": "rap",
+    "interactions": 8,
+    "createdAt": "2025-11-30T13:02:33.193Z",
+    "lastSeen": "2025-12-01T13:07:06.327Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "6790494347481": {
+    "id": "6790494347481",
+    "phoneNumber": "6790494347481",
+    "name": "fanra",
+    "interactions": 390,
+    "createdAt": "2025-11-30T13:02:39.301Z",
+    "lastSeen": "2025-12-01T14:25:59.152Z",
+    "role": "owner",
+    "tokens": 10,
+    "antilink": {
+      "date": "2025-12-01",
+      "count": 8
+    }
+  },
+  "151492656890087": {
+    "id": "151492656890087",
+    "phoneNumber": "151492656890087",
+    "name": "Alwandieeeeeeee",
+    "interactions": 11,
+    "createdAt": "2025-11-30T13:02:48.066Z",
+    "lastSeen": "2025-12-01T10:48:45.457Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "93845656195169": {
+    "id": "93845656195169",
+    "phoneNumber": "93845656195169",
+    "name": "Fanrabot",
+    "interactions": 92,
+    "createdAt": "2025-11-30T13:03:22.629Z",
+    "lastSeen": "2025-12-01T11:08:39.624Z",
+    "role": "bot",
+    "tokens": 10
+  },
+  "137666872004636": {
+    "id": "137666872004636",
+    "phoneNumber": "137666872004636",
+    "name": "𓍼 ݁",
+    "interactions": 3,
+    "createdAt": "2025-11-30T13:04:00.898Z",
+    "lastSeen": "2025-11-30T13:19:35.351Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "87149349212239": {
+    "id": "87149349212239",
+    "phoneNumber": "87149349212239",
+    "name": "Kinesh",
+    "interactions": 2,
+    "createdAt": "2025-11-30T13:06:21.453Z",
+    "lastSeen": "2025-11-30T13:06:24.861Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "240917885792463": {
+    "id": "240917885792463",
+    "phoneNumber": "240917885792463",
+    "name": "KAKANG LURAH",
+    "interactions": 5,
+    "createdAt": "2025-11-30T13:11:09.201Z",
+    "lastSeen": "2025-12-01T13:10:59.250Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "186848458584295": {
+    "id": "186848458584295",
+    "phoneNumber": "186848458584295",
+    "name": "Dn🦖",
+    "interactions": 2,
+    "createdAt": "2025-11-30T13:15:12.520Z",
+    "lastSeen": "2025-12-01T09:58:43.211Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "124528885805127": {
+    "id": "124528885805127",
+    "phoneNumber": "124528885805127",
+    "name": "qes.",
+    "interactions": 1,
+    "createdAt": "2025-11-30T13:19:14.490Z",
+    "lastSeen": "2025-11-30T13:19:14.490Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "204634371141670": {
+    "id": "204634371141670",
+    "phoneNumber": "204634371141670",
+    "name": "Yù Mêi Rèn 💫💖",
+    "interactions": 1,
+    "createdAt": "2025-11-30T13:19:29.487Z",
+    "lastSeen": "2025-11-30T13:19:29.487Z",
+    "role": "member",
+    "tokens": 10
+  },
+  "6285788918217": {
+    "id": "6285788918217",
+    "phoneNumber": "6285788918217",
+    "name": "fanra",
+    "interactions": 72,
+    "createdAt": "2025-11-30T13:19:35.969Z",
+    "lastSeen": "2025-12-01T14:38:23.544Z",
+    "role": "owner",
+    "tokens": 10
+  },
+  "245737023656167": {
+    "id": "245737023656167",
+    "phoneNumber": "245737023656167",
+    "name": "Fanrabot",
+    "interactions": 2,
+    "createdAt": "2025-12-01T07:03:56.339Z",
+    "lastSeen": "2025-12-01T07:03:57.563Z",
+    "role": "bot",
+    "tokens": 10
+  },
+  "6288291298977": {
+    "id": "6288291298977",
+    "name": "User",
+    "role": "bot",
+    "tokens": 10,
+    "interactions": 92,
+    "createdAt": "2025-12-01T07:20:57.755Z",
+    "lastSeen": "2025-12-01T14:25:58.638Z"
+  },
+  "207181068632306": {
+    "id": "207181068632306",
+    "name": "Glory-tech",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 14,
+    "createdAt": "2025-12-01T07:27:59.490Z",
+    "lastSeen": "2025-12-01T10:06:45.274Z"
+  },
+  "2208234008618": {
+    "id": "2208234008618",
+    "name": "🖤💫✨🌞💯",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 29,
+    "createdAt": "2025-12-01T07:34:56.943Z",
+    "lastSeen": "2025-12-01T12:14:04.944Z"
+  },
+  "86084180513001": {
+    "id": "86084180513001",
+    "name": "Watermeyonnnn",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T07:49:08.522Z",
+    "lastSeen": "2025-12-01T07:49:08.522Z"
+  },
+  "11304941170810": {
+    "id": "11304941170810",
+    "name": "Ssss",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T07:49:25.865Z",
+    "lastSeen": "2025-12-01T07:49:25.865Z"
+  },
+  "99227233439977": {
+    "id": "99227233439977",
+    "name": "Shami ☠️",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 7,
+    "createdAt": "2025-12-01T07:53:29.444Z",
+    "lastSeen": "2025-12-01T08:03:46.908Z"
+  },
+  "81050847985698": {
+    "id": "81050847985698",
+    "name": "apaja",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 5,
+    "createdAt": "2025-12-01T07:56:22.676Z",
+    "lastSeen": "2025-12-01T13:00:29.496Z"
+  },
+  "12962865614957": {
+    "id": "12962865614957",
+    "name": "🇨🇳 _kimin_ 🇺🇿",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 57,
+    "createdAt": "2025-12-01T07:59:53.431Z",
+    "lastSeen": "2025-12-01T11:31:16.483Z"
+  },
+  "144693354569918": {
+    "id": "144693354569918",
+    "name": "Hàmílpóñ",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 2,
+    "createdAt": "2025-12-01T07:59:54.540Z",
+    "lastSeen": "2025-12-01T08:03:17.381Z"
+  },
+  "75712253944032": {
+    "id": "75712253944032",
+    "name": "Kyuki Ameda",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 26,
+    "createdAt": "2025-12-01T08:01:26.557Z",
+    "lastSeen": "2025-12-01T11:46:41.939Z"
+  },
+  "214061170053256": {
+    "id": "214061170053256",
+    "name": "sir roneks",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 13,
+    "createdAt": "2025-12-01T08:02:54.320Z",
+    "lastSeen": "2025-12-01T13:20:20.230Z"
+  },
+  "191032276869374": {
+    "id": "191032276869374",
+    "name": "Jinx Or Matrix",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T08:50:39.536Z",
+    "lastSeen": "2025-12-01T08:50:39.536Z"
+  },
+  "21440577421415": {
+    "id": "21440577421415",
+    "name": "Buhlebendor❤️",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T08:55:30.798Z",
+    "lastSeen": "2025-12-01T08:55:30.798Z"
+  },
+  "111420528165098": {
+    "id": "111420528165098",
+    "name": "el lgi el lgi",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 21,
+    "createdAt": "2025-12-01T08:56:02.321Z",
+    "lastSeen": "2025-12-01T11:50:03.246Z"
+  },
+  "62217634451700": {
+    "id": "62217634451700",
+    "name": "我现在是人了",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 107,
+    "createdAt": "2025-12-01T09:03:57.819Z",
+    "lastSeen": "2025-12-01T13:17:52.911Z"
+  },
+  "70734370099343": {
+    "id": "70734370099343",
+    "name": "𝖊𝖒𝖒𝖆",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T09:10:47.903Z",
+    "lastSeen": "2025-12-01T09:10:47.903Z"
+  },
+  "19001069568089": {
+    "id": "19001069568089",
+    "name": "☕",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 3,
+    "createdAt": "2025-12-01T09:14:29.508Z",
+    "lastSeen": "2025-12-01T09:16:38.534Z"
+  },
+  "188025581601019": {
+    "id": "188025581601019",
+    "name": "︴Rick Sanchez ™",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 2,
+    "createdAt": "2025-12-01T09:16:23.925Z",
+    "lastSeen": "2025-12-01T09:16:57.598Z"
+  },
+  "102684631810125": {
+    "id": "102684631810125",
+    "name": "Liu Jin (刘錦)🧟‍♀️",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T09:17:20.401Z",
+    "lastSeen": "2025-12-01T09:17:20.401Z"
+  },
+  "268719594946588": {
+    "id": "268719594946588",
+    "name": "ron",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 10,
+    "createdAt": "2025-12-01T09:23:18.251Z",
+    "lastSeen": "2025-12-01T10:23:01.711Z"
+  },
+  "178189703888989": {
+    "id": "178189703888989",
+    "name": "𒅌E̸R̸R̸O̸R̸𒋨",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 33,
+    "createdAt": "2025-12-01T09:28:55.324Z",
+    "lastSeen": "2025-12-01T11:12:10.173Z"
+  },
+  "4200712925261": {
+    "id": "4200712925261",
+    "name": "乂ＥＮɴ𝒴乂",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T09:36:04.004Z",
+    "lastSeen": "2025-12-01T09:36:04.004Z"
+  },
+  "221925339058300": {
+    "id": "221925339058300",
+    "name": "zarrgudboi",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 2,
+    "createdAt": "2025-12-01T09:53:56.501Z",
+    "lastSeen": "2025-12-01T13:19:00.359Z"
+  },
+  "208426491723969": {
+    "id": "208426491723969",
+    "name": "GØJØ SATØRU🗿",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T10:07:53.351Z",
+    "lastSeen": "2025-12-01T10:07:53.351Z"
+  },
+  "85921290518631": {
+    "id": "85921290518631",
+    "name": "joe",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 21,
+    "createdAt": "2025-12-01T10:09:01.906Z",
+    "lastSeen": "2025-12-01T11:19:39.562Z"
+  },
+  "171128710529276": {
+    "id": "171128710529276",
+    "name": "rruna",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 2,
+    "createdAt": "2025-12-01T10:11:40.597Z",
+    "lastSeen": "2025-12-01T10:14:02.501Z"
+  },
+  "113662551453892": {
+    "id": "113662551453892",
+    "name": ".",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 2,
+    "createdAt": "2025-12-01T10:14:27.427Z",
+    "lastSeen": "2025-12-01T10:23:52.300Z"
+  },
+  "156496377708792": {
+    "id": "156496377708792",
+    "name": "vanessa",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T10:24:07.220Z",
+    "lastSeen": "2025-12-01T10:24:07.220Z"
+  },
+  "72873330901230": {
+    "id": "72873330901230",
+    "name": "Nishimura_Geon-ho𓅭𓃡",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 4,
+    "createdAt": "2025-12-01T10:55:44.369Z",
+    "lastSeen": "2025-12-01T10:55:57.452Z"
+  },
+  "249718575759518": {
+    "id": "249718575759518",
+    "name": "Gojo Satoru",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 9,
+    "createdAt": "2025-12-01T11:06:22.919Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T11:30:26.015Z"
+  },
+  "144976939884661": {
+    "id": "144976939884661",
+    "name": "𝒱𝑒𝓁𝓁ᬊ⌑",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 2,
+    "createdAt": "2025-12-01T11:10:03.250Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T11:10:04.353Z"
+  },
+  "251745733214295": {
+    "id": "251745733214295",
+    "name": "^_^:-🌺Lamanda🌺",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 3,
+    "createdAt": "2025-12-01T11:10:48.285Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T11:22:15.513Z"
+  },
+  "264724704931990": {
+    "id": "264724704931990",
+    "name": ".",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T11:10:54.294Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T11:10:54.294Z"
+  },
+  "167164438950120": {
+    "id": "167164438950120",
+    "name": "vvv",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 3,
+    "createdAt": "2025-12-01T11:12:54.996Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T11:16:37.662Z"
+  },
+  "171670060937322": {
+    "id": "171670060937322",
+    "name": ".",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 18,
+    "createdAt": "2025-12-01T11:15:22.398Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T13:22:29.183Z"
+  },
+  "2994196185322": {
+    "id": "2994196185322",
+    "name": "viben",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 8,
+    "createdAt": "2025-12-01T11:15:27.867Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T12:00:56.471Z"
+  },
+  "177515310133416": {
+    "id": "177515310133416",
+    "name": "eren yeager",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T11:27:05.905Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T11:27:05.905Z"
+  },
+  "11549687152688": {
+    "id": "11549687152688",
+    "name": "rickie",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T12:03:18.166Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T12:03:18.166Z"
+  },
+  "153193212280932": {
+    "id": "153193212280932",
+    "name": "DONTTAPTHEGLASS",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T12:04:28.467Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T12:04:28.467Z"
+  },
+  "154301498425598": {
+    "id": "154301498425598",
+    "name": "fitriiee",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 3,
+    "createdAt": "2025-12-01T12:06:17.130Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T13:03:53.938Z"
+  },
+  "28819700359315": {
+    "id": "28819700359315",
+    "name": "moser",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 5,
+    "createdAt": "2025-12-01T12:47:11.852Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T14:22:57.467Z"
+  },
+  "126109450530881": {
+    "id": "126109450530881",
+    "name": "Andro Li Etur",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T12:49:59.604Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T12:49:59.604Z",
+    "antilink": {
+      "date": "2025-12-01",
+      "count": 1
+    }
+  },
+  "239711050301470": {
+    "id": "239711050301470",
+    "name": "Hiranur Turhan",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 2,
+    "createdAt": "2025-12-01T12:51:50.505Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T12:56:38.162Z"
+  },
+  "241630816825525": {
+    "id": "241630816825525",
+    "name": "allll",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T12:59:29.900Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T12:59:29.900Z"
+  },
+  "150831198404731": {
+    "id": "150831198404731",
+    "name": "ya47 and mateoluna 🤍",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T13:01:40.370Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T13:01:40.370Z"
+  },
+  "29613799559207": {
+    "id": "29613799559207",
+    "name": ".",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 2,
+    "createdAt": "2025-12-01T13:16:54.592Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T13:16:58.942Z"
+  },
+  "107258251882623": {
+    "id": "107258251882623",
+    "name": ".",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 2,
+    "createdAt": "2025-12-01T13:18:26.581Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T13:19:46.138Z"
+  },
+  "74264732545078": {
+    "id": "74264732545078",
+    "name": "JONA🥶",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T13:23:23.270Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T13:23:23.270Z"
+  },
+  "24696816979997": {
+    "id": "24696816979997",
+    "name": "❦★𝙎𝙝𝙞𝙣𝙟𝙞♥࿇꧂⁩",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 4,
+    "createdAt": "2025-12-01T13:23:35.244Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T13:27:23.739Z"
+  },
+  "263393902604457": {
+    "id": "263393902604457",
+    "name": "︎⠀ ⠀  ︎ ︎⠀ ⠀  ︎ ︎⠀ ⠀  ︎ ︎",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T14:13:24.506Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T14:13:24.506Z"
+  },
+  "165828821573751": {
+    "id": "165828821573751",
+    "name": "𝐷𝑖𝑜𝑟💗",
+    "role": "member",
+    "tokens": 10,
+    "interactions": 1,
+    "createdAt": "2025-12-01T14:22:18.898Z",
+    "premium": false,
+    "premiumUntil": null,
+    "lastSeen": "2025-12-01T14:22:18.898Z"
+  }
+}
