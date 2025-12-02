@@ -2,127 +2,152 @@
 // 🛡️ Group Admin Tools — Clean Version
 
 export default {
-  name: "group-admin",
-  cmd: ["kick", "add", "promote", "demote", "admin", "unadmin"],
-  type: "command",
-  priority: 2,
+  name: "group-admin",
+  cmd: ["kick", "add", "promote", "demote", "admin", "unadmin"],
+  type: "command",
+  priority: 2,
+    
+    // --- KONTROL HAK AKSES GLOBAL (Via core/index.js) ---
+    access: {
+        isGroup: true,
+        isAdmin: true,
+        isOwner: false,      
+        isPremium: false
+    },
+    // ----------------------------------------------------
 
-  run: async (ctx) => {
-    try {
-      if (!ctx.isGroup) return ctx.reply("🚫 This command is only available in groups.");
-
-      // --- 1. AUTHENTICATION ---
-      // Cek apakah user adalah Owner Bot ATAU Admin Grup
-      const userDB = ctx.user;
-      const isOwner = userDB && userDB.role === "owner";
-
-      // Ambil metadata grup untuk cek admin
-      let groupMeta;
-      try { groupMeta = await ctx.bot.sock.groupMetadata(ctx.chatId); } catch {}
+  run: async (ctx) => {
+    try {
+      // Pengecekan isGroup sudah dilakukan di core/index.js
       
-      const participants = groupMeta?.participants || [];
-      const admins = participants.filter(p => p.admin).map(p => p.id);
+      const isOwner = ctx.user && ctx.user.role === "owner";
       
-      const senderNum = ctx.senderNumber;
-      const isSenderAdmin = admins.some(id => id.includes(senderNum));
-
-      if (!isSenderAdmin && !isOwner) {
-        return ctx.reply("🛑 Only *Group Admins* (or Bot Owner) can use this command.");
-      }
-
-      // --- 2. TARGET PARSER ---
-      let target;
-      const firstArg = ctx.args[0] ? ctx.args[0].toLowerCase() : "";
-
-      // Handle "me" target
-      if (["me", "myself", "i", "aku", "gue"].includes(firstArg)) {
-        if (["kick", "add"].includes(ctx.command)) 
-          return ctx.reply("😅 You can't use that on yourself.");
-        target = ctx.sender;
-      } 
-      // Handle Tag / Reply / Nomor HP
-      else {
-        const raw = ctx.raw?.message;
-        const contextInfo = raw?.extendedTextMessage?.contextInfo 
-                         || raw?.imageMessage?.contextInfo 
-                         || raw?.videoMessage?.contextInfo;
-
-        if (contextInfo?.mentionedJid?.length > 0) {
-            target = contextInfo.mentionedJid[0];
-        } else if (contextInfo?.participant) {
-            target = contextInfo.participant;
-        } else if (ctx.args.length > 0) {
-            let input = ctx.args.join("").replace(/[^0-9]/g, "");
-            if (input.startsWith("08")) input = "62" + input.slice(1);
-            if (input.length > 5) target = input + "@s.whatsapp.net";
-        }
-      }
-
-      if (!target) {
-        return ctx.reply("⚠️ No target detected. Please *tag* a user or *reply* to their message.");
-      }
-
-      // --- 3. EXECUTE ACTION ---
-      const targetNum = target.split("@")[0];
-      const botId = ctx.bot.sock.user.id.split(":")[0];
-
-      // Proteksi Bot
-      if (target.includes(botId) && ctx.command !== "promote") {
-        return ctx.reply("🤖 I cannot perform that action on myself.");
-      }
-
-      switch (ctx.command) {
-        case "kick":
-          try {
-            await ctx.bot.sock.groupParticipantsUpdate(ctx.chatId, [target], "remove");
-            await ctx.reply(`✅ Removed @${targetNum} from the group.`, { mentions: [target] });
-          } catch (e) {
-            await ctx.reply("🚫 Failed to kick. Make sure the bot is *Admin*.");
+      // --- Pengecekan Hak Akses BOT (Bot Admin Check) ---
+      // Logika: Jika pengguna BUKAN Owner, kita harus cek apakah Bot adalah Admin.
+      // Owner diizinkan mem-bypass ini (misalnya untuk mempromosikan Bot).
+      if (!isOwner) {
+          if (!ctx.isBotAdmin && ctx.command !== 'add') {
+              return ctx.reply("🤖 Bot tidak memiliki hak akses Admin Grup. Gagal menjalankan perintah.");
           }
-          break;
-
-        case "add":
-          try {
-            const res = await ctx.bot.sock.groupParticipantsUpdate(ctx.chatId, [target], "add");
-            const status = res[0]?.status;
-
-            if (status === "200") {
-              await ctx.reply(`✨ Added @${targetNum} to the group.`, { mentions: [target] });
-            } else if (status === "403") {
-              await ctx.reply(`🔐 User privacy blocked adding. Sending invite link...`);
-              const code = await ctx.bot.sock.groupInviteCode(ctx.chatId);
-              await ctx.sendMessage({ text: `Join here: https://chat.whatsapp.com/${code}` }, { jid: target });
-            } else {
-              await ctx.reply(`❌ Add failed. User might be already in group.`);
-            }
-          } catch {
-            await ctx.reply("🚫 Failed to add. Make sure I'm an *Admin*.");
-          }
-          break;
-
-        case "promote":
-        case "admin":
-          try {
-            await ctx.bot.sock.groupParticipantsUpdate(ctx.chatId, [target], "promote");
-            await ctx.reply(`👑 @${targetNum} is now an Admin.`, { mentions: [target] });
-          } catch {
-            await ctx.reply("🚫 Failed. Bot must be Admin to promote others.");
-          }
-          break;
-
-        case "demote":
-        case "unadmin":
-          try {
-            await ctx.bot.sock.groupParticipantsUpdate(ctx.chatId, [target], "demote");
-            await ctx.reply(`⬇️ @${targetNum} is no longer an Admin.`, { mentions: [target] });
-          } catch {
-            await ctx.reply("🚫 Failed. Bot must be Admin to demote others.");
-          }
-          break;
       }
+      // ----------------------------------------------------
+      
+      // --- 1. TARGET PARSER ---
+      let target;
+      const firstArg = ctx.args[0] ? ctx.args[0].toLowerCase() : "";
 
-    } catch (e) {
-      ctx.logger.error("ADMIN", `Error: ${e.message}`);
-    }
-  }
+      // Handle "me" target (untuk promote/demote diri sendiri)
+      if (["me", "myself"].includes(firstArg)) {
+          if (["kick", "add"].includes(ctx.command)) {
+              return ctx.reply("😅 Anda tidak bisa menggunakan perintah ini pada diri sendiri.");
+          }
+          
+          // Khusus promote me / demote me
+          if (["promote", "demote", "admin", "unadmin"].includes(ctx.command)) {
+              if (!isOwner) {
+                  return ctx.reply("👑 Hanya *Owner Bot* yang diizinkan mempromosikan/mendemosikan diri sendiri.");
+              }
+              // Jika Owner dan perintahnya promote/demote me, targetnya adalah diri sendiri
+              target = ctx.sender; 
+          }
+      } 
+      // Handle Tag / Reply / Nomor HP
+      else {
+        const raw = ctx.raw?.message;
+        const contextInfo = raw?.extendedTextMessage?.contextInfo 
+                         || raw?.imageMessage?.contextInfo 
+                         || raw?.videoMessage?.contextInfo;
+
+        if (contextInfo?.mentionedJid?.length > 0) {
+            target = contextInfo.mentionedJid[0];
+        } else if (contextInfo?.participant) {
+            target = contextInfo.participant;
+        } else if (ctx.args.length > 0) {
+            let input = ctx.args.join("").replace(/[^0-9]/g, "");
+            if (input.startsWith("08")) input = "62" + input.slice(1);
+            if (input.length > 5) target = input + "@s.whatsapp.net";
+        }
+      }
+
+      if (!target) {
+        return ctx.reply("⚠️ Target tidak terdeteksi. Silakan *tag* pengguna atau *reply* pesannya.");
+      }
+
+      // --- 2. EXECUTE ACTION ---
+      const targetNum = target.split("@")[0];
+      const botId = ctx.bot.sock.user.id.split(":")[0];
+
+      // Proteksi Bot (melarang kick/demote diri sendiri)
+      if (target.includes(botId) && ["kick", "demote", "unadmin"].includes(ctx.command)) {
+        return ctx.reply("🤖 Saya tidak bisa melakukan aksi tersebut pada diri sendiri.");
+      }
+
+      switch (ctx.command) {
+        case "kick":
+          try {
+            // Cek apakah target adalah Owner. Hanya Owner yang bisa kick Owner lain.
+            if (!isOwner && ctx.isOwner(targetNum)) {
+                return ctx.reply("👑 Anda tidak bisa mengeluarkan Owner Bot.");
+            }
+            await ctx.bot.sock.groupParticipantsUpdate(ctx.chatId, [target], "remove");
+            await ctx.reply(`✅ Berhasil mengeluarkan @${targetNum} dari grup.`, { mentions: [target] });
+          } catch (e) {
+            await ctx.reply("🚫 Gagal mengeluarkan. Pastikan bot adalah *Admin* dan Anda memiliki otoritas yang lebih tinggi dari target.");
+          }
+          break;
+
+        case "add":
+          // Logika Add tidak memerlukan Bot Admin, tetapi membutuhkan User Admin/Owner.
+          try {
+            const res = await ctx.bot.sock.groupParticipantsUpdate(ctx.chatId, [target], "add");
+            const status = res[0]?.status;
+
+            if (status === "200") {
+              await ctx.reply(`✨ Berhasil menambahkan @${targetNum} ke grup.`, { mentions: [target] });
+            } else if (status === "403") {
+              await ctx.reply(`🔐 Privasi pengguna memblokir penambahan. Mengirim link undangan...`);
+              const code = await ctx.bot.sock.groupInviteCode(ctx.chatId);
+              await ctx.sendMessage({ text: `Silakan bergabung melalui link ini: https://chat.whatsapp.com/${code}` }, { jid: target });
+            } else {
+              await ctx.reply(`❌ Gagal menambahkan. Mungkin pengguna sudah ada di grup atau ada masalah jaringan.`);
+            }
+          } catch {
+            await ctx.reply("🚫 Gagal menambahkan. Pastikan Anda memiliki hak Admin/Owner.");
+          }
+          break;
+
+        case "promote":
+        case "admin":
+          try {
+            // Cek apakah target adalah Owner, Owner tidak boleh di-promote (karena sudah role tertinggi)
+            if (ctx.isOwner(targetNum)) {
+                return ctx.reply("👑 Target sudah menjadi Owner Bot, tidak perlu dipromosikan lagi.");
+            }
+            await ctx.bot.sock.groupParticipantsUpdate(ctx.chatId, [target], "promote");
+            await ctx.reply(`👑 @${targetNum} sekarang adalah Admin Grup.`, { mentions: [target] });
+          } catch {
+            await ctx.reply("🚫 Gagal. Bot harus menjadi Admin untuk mempromosikan.");
+          }
+          break;
+
+        case "demote":
+        case "unadmin":
+          try {
+            // Cek apakah target adalah Owner, Owner tidak boleh di-demote oleh Admin Grup biasa
+            if (!isOwner && ctx.isOwner(targetNum)) {
+                return ctx.reply("👑 Anda tidak diizinkan mendemosi Owner Bot.");
+            }
+            await ctx.bot.sock.groupParticipantsUpdate(ctx.chatId, [target], "demote");
+            await ctx.reply(`⬇️ @${targetNum} bukan lagi Admin Grup.`, { mentions: [target] });
+          } catch {
+            await ctx.reply("🚫 Gagal. Bot harus menjadi Admin untuk mendemosi.");
+          }
+          break;
+      }
+
+    } catch (e) {
+      ctx.logger.error("ADMIN", `Error: ${e.message}`);
+      ctx.reply("❌ Terjadi kesalahan sistem saat memproses perintah Admin.");
+    }
+  }
 };

@@ -1,11 +1,13 @@
 {
   "botName": "FanraBot",
   "config": {
-    "active": true
+    "active": true,
+    "groupAutoReply": true,
+    "currentPersonaIndex": 0
   },
   "stats": {
-    "totalRequests": 22,
-    "todayRequests": 22,
+    "totalRequests": 104,
+    "todayRequests": 104,
     "lastResetDate": "2025-12-02"
   },
   "intents": [
